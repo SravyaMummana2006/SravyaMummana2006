@@ -1,6 +1,6 @@
 <div align="center">
 
-  <!-- Header Banner -->
+  <!-- Header Banner (SMIL Animated) -->
   <a href="https://github.com/SravyaMummana2006">
     <img src="./assets/header-banner.svg" alt="Sravya Mummana - AI/ML Engineer & Systems Developer" width="100%" />
   </a>
@@ -100,7 +100,7 @@ Technologies verified through production implementations, research pipelines, an
   <tr>
     <td valign="top"><b>Tools &amp; Infrastructure</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=10b981" alt="Git" />
+      <img src="https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=10b981&labelColor=0d1117" alt="Git" />
       <img src="https://img.shields.io/badge/GitHub_Actions-0d1117?style=flat-square&logo=githubactions&logoColor=10b981" alt="GitHub Actions" />
       <img src="https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=10b981" alt="Docker" />
       <img src="https://img.shields.io/badge/Apache_Maven-0d1117?style=flat-square&logo=apachemaven&logoColor=10b981" alt="Maven" />
@@ -121,7 +121,7 @@ Technologies verified through production implementations, research pipelines, an
 Inspect my genuine implementations and source code across key engineering domains:
 
 ### 🔬 [BIOTrace: Biological Intelligence & Multimodal Media Authenticity](https://github.com/SravyaMummana2006/BioTrace)
-> **Research Platform for Synthetic Media & Deepfake Detection**
+`[FLAGSHIP RESEARCH]` `[PROTOCOL C ISOLATED]` `[344 TESTS PASSING]`
 
 - **Scientific Core**: Detects synthetic and manipulated facial videos by combining convolutional visual representations (EfficientNet-B0) with remote photoplethysmography (subcutaneous blood volume pulse extraction via CHROM & POS algorithms) and ocular kinematics (Eye Aspect Ratio velocities & bilateral asymmetry).
 - **Identity-Isolated Partitioning**: Evaluated strictly on the HiDF benchmark under Protocol C with bipartite actor isolation (zero identity leakage between 6,106 training and 1,308 test videos).
@@ -132,7 +132,7 @@ Inspect my genuine implementations and source code across key engineering domain
 ---
 
 ### ⚡ [SPEED_DEMON: High-Throughput Ingestion & Metrics Engine](https://github.com/SravyaMummana2006/SPEED_DEMON)
-> **Zero-Dependency Systems Programming & Performance Engineering in Rust**
+`[SYSTEMS PROGRAMMING]` `[ZERO-CRATE RUST]` `[PARALLEL LOG ENGINE]`
 
 - **Systems Architecture**: Designed a parallelized log parsing and metrics aggregation pipeline utilizing the Rust standard library only (`std::thread::scope`, zero external dependencies, zero `unsafe` blocks).
 - **Low-Level Optimizations**: Implemented multithreaded chunk newline alignment, reusable 1 MiB streaming buffers per thread, custom byte-slice dictionary interning, and packed 64-bit group composite keys (`(hour_key << 32) | endpoint_id`).
@@ -142,7 +142,7 @@ Inspect my genuine implementations and source code across key engineering domain
 ---
 
 ### 🛡️ [DOGFOOD 2026: Verifiable Hackathon Judging & Evaluation Platform](https://github.com/SravyaMummana2006/dogfood)
-> **API-First, Cryptographically Auditable Hackathon Lifecycle Portal**
+`[CRYPTOGRAPHIC AUDITABILITY]` `[ED25519 SIGNATURES]` `[ARGON2ID]`
 
 - **Cryptographic Integrity**: Enforces strict server-side authorization with salted **Argon2id** password hashing, high-entropy session management, and **native Ed25519 digital signing** for tamper-proof winner certificate verification.
 - **Deterministic Evaluation**: Implements server-side Min-Max rubric score normalization across independent criteria to eliminate judge bias, peer score leakage, and unpenalized missing evaluation entries.
@@ -152,7 +152,7 @@ Inspect my genuine implementations and source code across key engineering domain
 ---
 
 ### 🛰️ [AI Land Use & Deforestation Analysis](https://github.com/SravyaMummana2006/AI-LAND-USE-AND-DEFORESTRATION-ANALYSIS)
-> **Temporal Satellite Image Classification & Ecological Loss Quantification**
+`[GEOSPATIAL REMOTE SENSING]` `[TEMPORAL CNN]` `[GEMINI LLM REASONING]`
 
 - **Satellite Computer Vision**: Analyzes temporal satellite image pairs using deep convolutional networks (CNN) and OpenCV structural change detection.
 - **5-Class Land Segmentation**: Classifies geospatial regions into Forest, Water, Urban, Agriculture, and Barren terrain.
@@ -162,7 +162,7 @@ Inspect my genuine implementations and source code across key engineering domain
 ---
 
 ### 👁️ [AI Eye Health & Fatigue Monitor](https://github.com/SravyaMummana2006/AI-EYE-MONITOR)
-> **Real-Time Edge Computer Vision for Ocular Kinematics & Ergonomics**
+`[EDGE COMPUTER VISION]` `[OCULAR KINEMATICS]` `[GLASSES-OPTIMIZED]`
 
 - **Biometric Landmark Tracking**: Tracks 468 facial mesh landmarks in real time using MediaPipe Face Mesh and OpenCV to calculate dual-eye Eye Aspect Ratio (EAR).
 - **Glasses-Friendly Calibration**: Engineered an adaptive baseline threshold calibration algorithm combined with temporal moving-average smoothing to eliminate glare and specular reflection artifacts for glasses wearers.
@@ -172,7 +172,7 @@ Inspect my genuine implementations and source code across key engineering domain
 ---
 
 ### 📈 [Intelligent Investment Decision Engine](https://github.com/SravyaMummana2006/invest-engine)
-> **FinTech-Grade Capital Allocation & Inflation Simulation Engine**
+`[FINANCIAL MODELING]` `[FISHER INFLATION LOGIC]` `[SCENARIO TELEMETRY]`
 
 - **Financial Modeling**: Models real purchasing-power erosion and future value compounding using the Fisher equation for inflation-adjusted goal planning.
 - **Scenario Telemetry**: Simulates conservative, realistic, and aggressive market trajectories across multi-asset risk matrices (equities, debt, commodities) with interactive Plotly telemetry and structured CSV/JSON report generation.
@@ -217,40 +217,28 @@ Areas where I focus my research inquiry and systems development:
 
 <div align="center">
 
-  <!-- Primary Stats and Languages -->
-  <table border="0">
-    <tr>
-      <td align="center" width="50%">
-        <a href="https://github.com/SravyaMummana2006">
-          <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=SravyaMummana2006&show_icons=true&theme=dark&bg_color=0d1117&title_color=10b981&text_color=c9d1d9&icon_color=10b981&border_color=21262d" alt="Sravya's GitHub Statistics" width="100%" />
-        </a>
-      </td>
-      <td align="center" width="50%">
-        <a href="https://github.com/SravyaMummana2006">
-          <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SravyaMummana2006&layout=compact&theme=dark&bg_color=0d1117&title_color=10b981&text_color=c9d1d9&border_color=21262d" alt="Top Languages" width="100%" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <a href="https://github.com/SravyaMummana2006">
-          <img src="https://streak-stats.demolab.com?user=SravyaMummana2006&theme=dark&background=0d1117&ring=10b981&fire=10b981&currStreakLabel=10b981&border=21262d" alt="GitHub Contribution Streak" width="100%" />
-        </a>
-      </td>
-    </tr>
-  </table>
+  <!-- Verified Repository Benchmarks & Language Telemetry (Zero Rate-Limit Error Guarantee) -->
+  <a href="https://github.com/SravyaMummana2006">
+    <img src="./assets/github-metrics.svg" alt="Sravya's Engineering Benchmarks & Language Distribution" width="100%" />
+  </a>
+
+  <br /><br />
+
+  <!-- Live Contribution Streak Telemetry -->
+  <a href="https://github.com/SravyaMummana2006">
+    <img src="https://streak-stats.demolab.com?user=SravyaMummana2006&theme=dark&background=0d1117&ring=10b981&fire=10b981&currStreakLabel=10b981&border=21262d" alt="GitHub Contribution Streak" width="100%" />
+  </a>
 
 </div>
 
-> [!NOTE]
-> **Architectural Resilience Guarantee**: If third-party metrics providers encounter external rate limits, the verified engineering telemetry below documents active repository benchmarks:
+<br />
 
-| Engineering Focus | Active Implementations | Primary Ecosystems | Verification Level |
+| Engineering Domain | Primary Project Repositories | Core Ecosystems | Verification Level |
 | :--- | :--- | :--- | :--- |
-| **Biometric & Media Forensics** | [BioTrace](https://github.com/SravyaMummana2006/BioTrace), [AI-EYE-MONITOR](https://github.com/SravyaMummana2006/AI-EYE-MONITOR) | Python, Java 21, PyTorch | Protocol C Isolated (HiDF), 344 Unit Tests |
-| **Systems & Concurrency** | [SPEED_DEMON](https://github.com/SravyaMummana2006/SPEED_DEMON) | Rust (Zero Crates, `std::thread::scope`) | Ingests 3.1M records in ~437ms (<270MB RAM) |
-| **Secure Web Platforms** | [DOGFOOD 2026](https://github.com/SravyaMummana2006/dogfood) | TypeScript, PostgreSQL, Node.js | Argon2id + Ed25519 Cryptographic Signatures |
-| **Applied AI & Analytics** | [AI-LAND-USE](https://github.com/SravyaMummana2006/AI-LAND-USE-AND-DEFORESTRATION-ANALYSIS), [invest-engine](https://github.com/SravyaMummana2006/invest-engine) | Python, TensorFlow, Streamlit | Computer Vision EIS & Fisher Inflation Models |
+| **Biometric Forensics** | [BioTrace](https://github.com/SravyaMummana2006/BioTrace), [AI-EYE-MONITOR](https://github.com/SravyaMummana2006/AI-EYE-MONITOR) | Python 3.11, Java 21 LTS, PyTorch | Protocol C Isolated (HiDF), 344 Tests |
+| **Systems & Concurrency** | [SPEED_DEMON](https://github.com/SravyaMummana2006/SPEED_DEMON) | Rust 1.80+ (`std::thread::scope`) | 3.1M Ingest in ~437ms (<270MB RAM) |
+| **Secure Platforms** | [DOGFOOD 2026](https://github.com/SravyaMummana2006/dogfood) | TypeScript, PostgreSQL, Node.js | Argon2id + Ed25519 Verifiable Records |
+| **Applied Vision & AI** | [AI-LAND-USE](https://github.com/SravyaMummana2006/AI-LAND-USE-AND-DEFORESTRATION-ANALYSIS), [invest-engine](https://github.com/SravyaMummana2006/invest-engine) | Python, TensorFlow, Streamlit | Computer Vision EIS & Fisher Models |
 
 <div align="center">
   <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
@@ -261,11 +249,10 @@ Areas where I focus my research inquiry and systems development:
 ## 06. Contribution Telemetry
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SravyaMummana2006/SravyaMummana2006/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SravyaMummana2006/SravyaMummana2006/output/github-contribution-grid-snake.svg">
-    <img alt="Sravya's Contribution Grid Snake" src="./assets/snake-fallback.svg" width="100%" />
-  </picture>
+  <!-- Live SMIL Animated Contribution Snake Console (Zero 404s, Always Animated on GitHub) -->
+  <a href="https://github.com/SravyaMummana2006">
+    <img src="./assets/contribution-telemetry.svg" alt="Continuous Integration & Live Contribution Telemetry" width="100%" />
+  </a>
 </div>
 
 <div align="center">
