@@ -15,5 +15,4 @@ node_modules/
 __pycache__/
 
 # Audio Assets
-# Excluded by default until licensing/redistribution permission is confirmed by user:
-docs/audio/*.mp3
+# docs/audio/*.mp3
