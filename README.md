@@ -1,12 +1,12 @@
 <div align="center">
 
   <!-- Header Banner (SMIL Animated) -->
-  <a href="https://sravyamummana2006.github.io/">
+  <a href="https://sravyamummana2006.github.io/SravyaMummana2006/">
     <img src="./assets/header-banner.svg" alt="Sravya Mummana - AI/ML Engineer & Systems Developer" width="100%" />
   </a>
 
   <!-- Animated Typing Headline -->
-  <a href="https://sravyamummana2006.github.io/">
+  <a href="https://sravyamummana2006.github.io/SravyaMummana2006/">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=1200&color=10B981&center=true&vCenter=true&width=680&lines=Computer+Science+%26+Engineering+Student;Investigating+Biometric+Media+Authenticity+%26+rPPG;Engineering+High-Throughput+Systems+in+Rust+%26+Java;Developing+Verifiable%2C+Cryptographic+Architectures" alt="Typing SVG" />
   </a>
 
@@ -16,15 +16,15 @@
 
   <!-- Interactive Portfolio & Lounge Quick Link -->
   <p align="center">
-    <a href="https://sravyamummana2006.github.io/">
+    <a href="https://sravyamummana2006.github.io/SravyaMummana2006/">
       <img src="https://img.shields.io/badge/Live_Interactive_Portfolio-05080c?style=for-the-badge&logo=googlechrome&logoColor=10b981&labelColor=05080c" alt="Live Portfolio" />
     </a>
     &nbsp;
-    <a href="https://sravyamummana2006.github.io/#chess">
+    <a href="https://sravyamummana2006.github.io/SravyaMummana2006/#chess">
       <img src="https://img.shields.io/badge/Play_Live_Chess-05080c?style=for-the-badge&logo=lichess&logoColor=34d399&labelColor=05080c" alt="Play Live Chess" />
     </a>
     &nbsp;
-    <a href="https://sravyamummana2006.github.io/#lofi">
+    <a href="https://sravyamummana2006.github.io/SravyaMummana2006/#lofi">
       <img src="https://img.shields.io/badge/Romantic_Lo--Fi_Lounge-05080c?style=for-the-badge&logo=applepodcasts&logoColor=10b981&labelColor=05080c" alt="Romantic Lo-Fi Lounge" />
     </a>
   </p>
@@ -56,7 +56,7 @@ When I am not writing code or analyzing benchmark distributions, you will usuall
 GitHub READMEs cannot execute custom JavaScript, so I built an accompanying static portfolio application with live interactive features:
 
 <div align="center">
-  <a href="https://sravyamummana2006.github.io/">
+  <a href="https://sravyamummana2006.github.io/SravyaMummana2006/">
     <img src="./assets/interactive-lounge.svg" alt="Interactive Chess & Lo-Fi Lounge Banner" width="100%" />
   </a>
 </div>
@@ -66,7 +66,7 @@ GitHub READMEs cannot execute custom JavaScript, so I built an accompanying stat
 - ♟️ **Native Playable Chess Game**: Full legal move validation (castling, en passant, promotion, checkmate, stalemate), click-to-move square highlights, SAN move streaming, move undo, captured material trays, and a lightweight minimax AI opponent to test your skills.
 - 🎵 **Romantic Lo-Fi Music Player**: An ambient, non-intrusive listening space with tactile vinyl disc animations, live audio waveforms, seekable progress scrubbing, volume controls, and a strict no-autoplay policy.
 
-👉 **[Launch the Interactive Portfolio & Play Live &rarr;](https://sravyamummana2006.github.io/)**
+👉 **[Launch the Interactive Portfolio & Play Live &rarr;](https://sravyamummana2006.github.io/SravyaMummana2006/)**
 
 <div align="center">
   <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
@@ -278,7 +278,7 @@ I welcome technical discussions, research collaborations, and software engineeri
     <img src="https://img.shields.io/badge/LinkedIn_Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=10b981&labelColor=0d1117" alt="LinkedIn Profile" />
   </a>
   &nbsp;
-  <a href="https://sravyamummana2006.github.io/">
+  <a href="https://sravyamummana2006.github.io/SravyaMummana2006/">
     <img src="https://img.shields.io/badge/Interactive_Portfolio-0d1117?style=for-the-badge&logo=googlechrome&logoColor=10b981&labelColor=0d1117" alt="Interactive Portfolio" />
   </a>
 
