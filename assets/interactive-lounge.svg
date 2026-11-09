@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="lounge-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05080c" />
+      <stop offset="50%" stop-color="#0a0f16" />
+      <stop offset="100%" stop-color="#070c12" />
+    </linearGradient>
+
+    <radialGradient id="emerald-glow-left" cx="20%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.22" />
+      <stop offset="50%" stop-color="#059669" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="emerald-glow-right" cx="80%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#047857" stop-opacity="0.25" />
+      <stop offset="60%" stop-color="#059669" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#047857" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="lounge-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#21262d" />
+      <stop offset="20%" stop-color="#10b981" stop-opacity="0.8" />
+      <stop offset="80%" stop-color="#059669" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#21262d" />
+    </linearGradient>
+
+    <pattern id="lounge-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.75" fill="#10b981" fill-opacity="0.2" />
+    </pattern>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", sans-serif;
+        font-weight: 800;
+        font-size: 26px;
+        fill: #f0fdf4;
+        letter-spacing: -0.5px;
+      }
+      .sub-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        fill: #94a3b8;
+      }
+      .pill-text {
+        font-family: "Fira Code", monospace;
+        font-size: 11px;
+        font-weight: 600;
+        fill: #34d399;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+      }
+      .btn-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        fill: #05080c;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="880" height="200" rx="14" fill="url(#lounge-bg)" />
+  <rect width="880" height="200" rx="14" fill="url(#emerald-glow-left)" />
+  <rect width="880" height="200" rx="14" fill="url(#emerald-glow-right)" />
+  <rect width="880" height="200" rx="14" fill="url(#lounge-dots)" />
+  <rect width="880" height="200" rx="14" fill="none" stroke="url(#lounge-border)" stroke-width="1.5" />
+
+  <!-- Left: Mini Chessboard Representation -->
+  <g transform="translate(45, 30)">
+    <rect width="140" height="140" rx="8" fill="#042f2e" stroke="#059669" stroke-width="1.5" />
+    <!-- 4x4 mini decorative grid representing chess -->
+    <rect x="0" y="0" width="35" height="35" fill="#13382f" />
+    <rect x="70" y="0" width="35" height="35" fill="#13382f" />
+    <rect x="35" y="35" width="35" height="35" fill="#13382f" />
+    <rect x="105" y="35" width="35" height="35" fill="#13382f" />
+    <rect x="0" y="70" width="35" height="35" fill="#13382f" />
+    <rect x="70" y="70" width="35" height="35" fill="#13382f" />
+    <rect x="35" y="105" width="35" height="35" fill="#13382f" />
+    <rect x="105" y="105" width="35" height="35" fill="#13382f" />
+    <!-- White King Vector -->
+    <path d="M70 45 v-6 M66 41 h8 M70 65 s5-8 3-12 c0 0-1-3-3-3 s-3 3-3 3 c-2 4 3 12 3 12 M58 80 c7 4 17 4 24 0 c0-6-1-14-5-17 c-5 4-9 4-14 0 c-4 3-5 11-5 17 z" fill="#f0fdf4" stroke="#059669" stroke-width="1.5" />
+    <!-- Mini turn dot -->
+    <circle cx="70" cy="115" r="4" fill="#34d399" />
+  </g>
+
+  <!-- Middle: Interactive Feature Details -->
+  <g transform="translate(225, 45)">
+    <!-- Pill Tag -->
+    <rect x="0" y="0" width="220" height="22" rx="11" fill="rgba(16, 185, 129, 0.12)" stroke="#10b981" stroke-width="0.8" />
+    <circle cx="12" cy="11" r="3.5" fill="#34d399">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="24" y="15" class="pill-text">INTERACTIVE WEB SUITE</text>
+
+    <!-- Main Title -->
+    <text x="0" y="52" class="title-text">Interactive Chess &amp; Lo-Fi Lounge</text>
+    
+    <!-- Subtitle description -->
+    <text x="0" y="78" class="sub-text">Play a live match against the engine or relax with personal romantic lo-fi beats.</text>
+    <text x="0" y="98" class="sub-text">Built natively with zero external bulky frameworks &bull; Full mobile responsiveness.</text>
+  </g>
+
+  <!-- Right: Vinyl Icon Representation -->
+  <g transform="translate(710, 30)">
+    <!-- Outer Vinyl Disc -->
+    <circle cx="70" cy="70" r="65" fill="#0d131c" stroke="#161f2c" stroke-width="4" />
+    <circle cx="70" cy="70" r="48" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="70" cy="70" r="32" fill="none" stroke="rgba(16,185,129,0.2)" stroke-width="1" stroke-dasharray="2,2" />
+    <!-- Label -->
+    <circle cx="70" cy="70" r="18" fill="#059669" stroke="#34d399" stroke-width="1.5" />
+    <circle cx="70" cy="70" r="3.5" fill="#05080c" />
+    <!-- Tone Arm -->
+    <path d="M125 35 L105 75 L82 82" fill="none" stroke="#64748b" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="125" cy="35" r="4" fill="#34d399" />
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor & IDE Directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local build / test artifacts
+node_modules/
+.pytest_cache/
+__pycache__/
+
+# Audio Assets
+# Excluded by default until licensing/redistribution permission is confirmed by user:
+docs/audio/*.mp3

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sravya Mummana - Computer Science & Engineering Student specializing in AI/ML, High-Throughput Systems, and Biometric Media Forensics. Interactive Portfolio, Playable Chess Engine & Lo-Fi Lounge." />
+  <meta name="keywords" content="Sravya Mummana, AI Engineer, Rust Developer, Java 21, Deepfake Detection, rPPG, Interactive Chess, Lo-Fi Audio Player" />
+  <meta name="author" content="Sravya Mummana" />
+  <meta name="theme-color" content="#05080c" />
+  <title>Sravya Mummana • Software Developer &amp; AI/ML Researcher</title>
+  
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%2305080c' stroke='%2310b981' stroke-width='6'/><text x='50%' y='58%' font-family='monospace' font-weight='bold' font-size='38' fill='%2334d399' text-anchor='middle' dominant-baseline='middle'>SM</text></svg>" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#hero" class="brand-link" aria-label="Sravya Mummana Home">
+        <span class="status-dot-pulse" aria-hidden="true"></span>
+        <span>Sravya Mummana</span>
+        <span class="brand-badge">SM-2006</span>
+      </a>
+
+      <button class="nav-toggle-btn" id="nav-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <ul class="nav-links" id="primary-nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#chess">Chess Arena</a></li>
+        <li><a href="#lofi">Lo-Fi Lounge</a></li>
+        <li><a href="#connect">Connect</a></li>
+        <li><a href="https://github.com/SravyaMummana2006" target="_blank" rel="noopener noreferrer" class="nav-btn-highlight">GitHub Profile ↗</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-content">
+        <div class="hero-pill-badge">
+          <span class="status-dot-pulse"></span>
+          <span>Computer Science &amp; Engineering • Systems &amp; Applied AI</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Sravya Mummana</span>.
+        </h1>
+
+        <p class="hero-subtitle">
+          AI/ML Engineer &nbsp;•&nbsp; Systems Developer &nbsp;•&nbsp; Research Enthusiast
+        </p>
+
+        <p class="hero-bio">
+          I build high-performance software systems and investigate applied machine learning.
+          My projects range from detecting deepfakes through biological pulse signals and eye kinematics,
+          to streaming millions of log records in zero-dependency Rust, and architecting cryptographically
+          verifiable platforms. I care about empirical rigor, reproducible benchmarks, and clean engineering.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="cta-btn cta-primary">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+            Explore Projects
+          </a>
+          <a href="#chess" class="cta-btn cta-secondary">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 22H5v-2h14v2zm-2-4H7l1.5-9h7L17 18zm-5-15c1.1 0 2 .9 2 2 0 .5-.2 1-.5 1.4.9.4 1.5 1.3 1.5 2.3 0 1.4-1.1 2.5-2.5 2.5S10 10.1 10 8.7c0-1 .6-1.9 1.5-2.3-.3-.4-.5-.9-.5-1.4 0-1.1.9-2 2-2z"/></svg>
+            Play Interactive Chess
+          </a>
+          <a href="#lofi" class="cta-btn cta-secondary">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+            Lo-Fi Lounge
+          </a>
+        </div>
+
+        <!-- Telemetry Strip -->
+        <div class="metrics-strip">
+          <div class="metric-item">
+            <span class="metric-val">344</span>
+            <span class="metric-lbl">Passing Tests (BIOTrace)</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">~437 ms</span>
+            <span class="metric-lbl">3.1M Ingest In Rust</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">0.7952</span>
+            <span class="metric-lbl">HiDF Protocol C ROC-AUC</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">Zero</span>
+            <span class="metric-lbl">Unsafe Blocks (Log Engine)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Core Philosophy -->
+    <section class="section-wrap" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Philosophy &amp; Foundation</span>
+          <h2 class="section-title">How I Approach Engineering</h2>
+          <p class="section-desc">
+            Bridging theoretical models with production architecture: clean data structures, rigorous validation, and minimal runtime bloat.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h4>Engineering Discipline</h4>
+            <p class="about-text">
+              I believe software engineering should be grounded in empirical measurement rather than marketing buzzwords. When building deep learning detectors, I evaluate strictly under bipartite identity isolation to guarantee real generalization. When building data systems, I measure cache locality, heap allocations, and multithreaded synchronization overhead.
+            </p>
+            <p class="about-text">
+              I enjoy working in languages with strong safety guarantees and predictable performance—particularly <strong>Rust</strong>, <strong>Java 21</strong>, and modern <strong>Python</strong> for scientific modeling.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <h4>Domains of Active Investigation</h4>
+            <ul class="domains-list">
+              <li>
+                <span class="domain-bullet">▹</span>
+                <div>
+                  <strong>Biometric Media Forensics:</strong> Extracting physiological vital signals (rPPG via CHROM/POS) and ocular kinematics to verify media authenticity.
+                </div>
+              </li>
+              <li>
+                <span class="domain-bullet">▹</span>
+                <div>
+                  <strong>High-Throughput Concurrent Systems:</strong> Zero-dependency parallel log parsing using <code>std::thread::scope</code>, streaming buffers, and packed integer keys.
+                </div>
+              </li>
+              <li>
+                <span class="domain-bullet">▹</span>
+                <div>
+                  <strong>Cryptographic Platform Integrity:</strong> Tamper-proof winner verification via Ed25519 digital signatures, Argon2id hashing, and immutable SQL audit logs.
+                </div>
+              </li>
+              <li>
+                <span class="domain-bullet">▹</span>
+                <div>
+                  <strong>Applied Edge Vision:</strong> Real-time facial mesh landmark tracking, glasses-friendly calibration, and temporal satellite change detection.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Showcase -->
+    <section class="section-wrap" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Portfolio Repositories</span>
+          <h2 class="section-title">Featured Projects &amp; Research</h2>
+          <p class="section-desc">
+            Deep technical breakdowns of what I built, why I built it, and how each system functions under the hood.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+          <button class="filter-tab-btn active" data-filter="all">All Projects (7)</button>
+          <button class="filter-tab-btn" data-filter="ai-vision">AI &amp; Vision (4)</button>
+          <button class="filter-tab-btn" data-filter="systems">Systems &amp; Rust (2)</button>
+          <button class="filter-tab-btn" data-filter="crypto">Security &amp; Web (2)</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- 1. BIOTrace -->
+          <article class="project-card" data-category="ai-vision">
+            <div class="card-top-meta">
+              <span class="proj-badge">Flagship Research</span>
+              <span class="proj-status">344 Passing Tests</span>
+            </div>
+            <h3 class="proj-title">BIOTrace: Multimodal Media Authenticity</h3>
+            <p class="proj-tagline">Biological Vital Signals &amp; Forensic Ocular Kinematics</p>
+            
+            <div class="proj-deepdive">
+              <div class="deepdive-block">
+                <h5>1. Problem Solved</h5>
+                <p>Standard deepfake detectors inspect superficial facial pixels, making them fragile against modern diffusion generators and video compression artifacts.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>2. Why I Built It</h5>
+                <p>To engineer an evasion-resistant forensic detection system that measures human biological vitality—subcutaneous blood volume pulses and involuntary eye mechanics—which synthetic generators fail to reproduce coherently.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>3. Technical Mechanism</h5>
+                <p>Evaluated on the HiDF benchmark with bipartite actor isolation (zero identity overlap between 6,106 training and 1,308 test videos). Combines EfficientNet-B0 visual representations with rPPG CHROM &amp; POS algorithms and Eye Aspect Ratio (EAR) kinematics. Features a decoupled Java 21 Swing Forensic Workstation with live JFreeChart pulse telemetry and a Python FastAPI inference backend.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>4. Technologies Used</h5>
+                <div class="tech-tag-group">
+                  <span class="tech-tag">Java 21 LTS</span>
+                  <span class="tech-tag">Python 3.11</span>
+                  <span class="tech-tag">PyTorch 2.6</span>
+                  <span class="tech-tag">FastAPI</span>
+                  <span class="tech-tag">OpenCV</span>
+                  <span class="tech-tag">MediaPipe</span>
+                  <span class="tech-tag">SQLite JDBC</span>
+                </div>
+              </div>
+              <div class="deepdive-block">
+                <h5>5. What Makes It Unique</h5>
+                <p>Achieved 0.7952 ROC-AUC under strict Protocol C identity isolation, with 104 recovered visual failure cases and 344 automated test assertions.</p>
+              </div>
+            </div>
+
+            <div class="card-footer-actions">
+              <a href="https://github.com/SravyaMummana2006/BioTrace" target="_blank" rel="noopener noreferrer" class="repo-link-btn">
+                <span>View Source</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 2. SPEED_DEMON -->
+          <article class="project-card" data-category="systems">
+            <div class="card-top-meta">
+              <span class="proj-badge">Systems Programming</span>
+              <span class="proj-status">Zero External Crates</span>
+            </div>
+            <h3 class="proj-title">SPEED_DEMON: High-Throughput Log Engine</h3>
+            <p class="proj-tagline">Parallel Log Ingestion &amp; Metrics Aggregation in Pure Rust</p>
+            
+            <div class="proj-deepdive">
+              <div class="deepdive-block">
+                <h5>1. Problem Solved</h5>
+                <p>Telemetry pipelines often suffer from memory bloat and thread contention when ingesting gigabytes of server logs.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>2. Why I Built It</h5>
+                <p>To explore how far low-level data alignment, scoped threading, and zero-allocation parsing in pure Rust can outpace traditional log parsers without pulling in heavyweight dependencies.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>3. Technical Mechanism</h5>
+                <p>Utilizes <code>std::thread::scope</code> for zero-overhead thread synchronization. Implements multithreaded chunk newline alignment, reusable 1 MiB streaming buffers per thread, custom byte-slice dictionary interning, and packed 64-bit composite keys (<code>(hour_key &lt;&lt; 32) | endpoint_id</code>). Zero <code>unsafe</code> blocks.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>4. Technologies Used</h5>
+                <div class="tech-tag-group">
+                  <span class="tech-tag">Rust 1.80+</span>
+                  <span class="tech-tag">std::thread::scope</span>
+                  <span class="tech-tag">Streaming I/O</span>
+                  <span class="tech-tag">Bitwise Packing</span>
+                  <span class="tech-tag">Cargo LTO</span>
+                </div>
+              </div>
+              <div class="deepdive-block">
+                <h5>5. What Makes It Unique</h5>
+                <p>Parsed and aggregated 3.1 million log records (238 MB) in ~437 ms (1.81x speedup) on 12 logical cores, while keeping peak working set strictly below 270 MB.</p>
+              </div>
+            </div>
+
+            <div class="card-footer-actions">
+              <a href="https://github.com/SravyaMummana2006/SPEED_DEMON" target="_blank" rel="noopener noreferrer" class="repo-link-btn">
+                <span>View Source</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 3. DOGFOOD 2026 -->
+          <article class="project-card" data-category="crypto systems">
+            <div class="card-top-meta">
+              <span class="proj-badge">Verifiable Architecture</span>
+              <span class="proj-status">Ed25519 Verified</span>
+            </div>
+            <h3 class="proj-title">DOGFOOD 2026: Hackathon Judging Platform</h3>
+            <p class="proj-tagline">Cryptographically Auditable Rubric &amp; Evaluation Platform</p>
+            
+            <div class="proj-deepdive">
+              <div class="deepdive-block">
+                <h5>1. Problem Solved</h5>
+                <p>Hackathon evaluation often suffers from uncalibrated judge scoring, score leaks, and unverified winner certifications.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>2. Why I Built It</h5>
+                <p>To engineer a self-hosted evaluation backend ensuring mathematical fairness in scoring and cryptographic auditability for every submission and rubric decision.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>3. Technical Mechanism</h5>
+                <p>Features salted Argon2id password hashing, high-entropy session management, server-side Min-Max rubric score normalization across independent criteria, immutable PostgreSQL audit logs, and native Ed25519 digital keypair signing for winner certificate verification.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>4. Technologies Used</h5>
+                <div class="tech-tag-group">
+                  <span class="tech-tag">TypeScript</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">PostgreSQL</span>
+                  <span class="tech-tag">Argon2id</span>
+                  <span class="tech-tag">Ed25519 Crypto</span>
+                  <span class="tech-tag">Docker Compose</span>
+                </div>
+              </div>
+              <div class="deepdive-block">
+                <h5>5. What Makes It Unique</h5>
+                <p>Combines server-side statistical score normalization with cryptographic signing, preventing judge bias and producing tamper-evident certificates.</p>
+              </div>
+            </div>
+
+            <div class="card-footer-actions">
+              <a href="https://github.com/SravyaMummana2006/dogfood" target="_blank" rel="noopener noreferrer" class="repo-link-btn">
+                <span>View Source</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 4. AI Land Use & Deforestation -->
+          <article class="project-card" data-category="ai-vision">
+            <div class="card-top-meta">
+              <span class="proj-badge">Geospatial Vision</span>
+              <span class="proj-status">Multimodal LLM Synthesis</span>
+            </div>
+            <h3 class="proj-title">AI Land Use &amp; Deforestation Analysis</h3>
+            <p class="proj-tagline">Satellite Computer Vision &amp; Ecological Impact Modeling</p>
+            
+            <div class="proj-deepdive">
+              <div class="deepdive-block">
+                <h5>1. Problem Solved</h5>
+                <p>Illegal deforestation and rapid terrain degradation spread faster than manual satellite imagery monitoring can track.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>2. Why I Built It</h5>
+                <p>To automate temporal change detection across satellite image pairs and translate raw computer vision metrics into actionable policy recommendations.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>3. Technical Mechanism</h5>
+                <p>Pairs deep convolutional networks (CNN) with OpenCV structural change analysis for 5-class land segmentation (Forest, Water, Urban, Agriculture, Barren). Calculates an Environmental Impact Score (EIS) and connects with Google Gemini API for structured ecological risk assessments.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>4. Technologies Used</h5>
+                <div class="tech-tag-group">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">TensorFlow / Keras</span>
+                  <span class="tech-tag">OpenCV</span>
+                  <span class="tech-tag">Google Gemini API</span>
+                  <span class="tech-tag">Streamlit</span>
+                </div>
+              </div>
+              <div class="deepdive-block">
+                <h5>5. What Makes It Unique</h5>
+                <p>Bridges quantitative surface canopy reduction telemetry with multimodal generative AI for automated environmental damage reporting.</p>
+              </div>
+            </div>
+
+            <div class="card-footer-actions">
+              <a href="https://github.com/SravyaMummana2006/AI-LAND-USE-AND-DEFORESTRATION-ANALYSIS" target="_blank" rel="noopener noreferrer" class="repo-link-btn">
+                <span>View Source</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 5. AI Eye Health & Fatigue Monitor -->
+          <article class="project-card" data-category="ai-vision">
+            <div class="card-top-meta">
+              <span class="proj-badge">Edge Vision</span>
+              <span class="proj-status">Glasses-Friendly Calibration</span>
+            </div>
+            <h3 class="proj-title">AI Eye Health &amp; Fatigue Monitor</h3>
+            <p class="proj-tagline">Real-Time Ocular Kinematics &amp; Drowsiness Alerting</p>
+            
+            <div class="proj-deepdive">
+              <div class="deepdive-block">
+                <h5>1. Problem Solved</h5>
+                <p>Most commercial blink and drowsiness detectors generate persistent false positives for individuals wearing prescription glasses due to reflection glare.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>2. Why I Built It</h5>
+                <p>To design an edge-friendly ocular fatigue monitor that runs reliably on ordinary webcams without being disrupted by specular reflections or ambient lighting changes.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>3. Technical Mechanism</h5>
+                <p>Tracks 468 facial mesh landmarks via MediaPipe Face Mesh. Computes dual-eye Eye Aspect Ratio (EAR) combined with an adaptive baseline threshold calibration algorithm and temporal moving-average smoothing. Monitors blink velocity, frequency per minute, prolonged closure alerts, and ergonomic screen distance.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>4. Technologies Used</h5>
+                <div class="tech-tag-group">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">MediaPipe Face Mesh</span>
+                  <span class="tech-tag">OpenCV</span>
+                  <span class="tech-tag">NumPy</span>
+                </div>
+              </div>
+              <div class="deepdive-block">
+                <h5>5. What Makes It Unique</h5>
+                <p>Dynamically adapts to specular reflections and frame shadows, eliminating blink misclassifications for glasses wearers.</p>
+              </div>
+            </div>
+
+            <div class="card-footer-actions">
+              <a href="https://github.com/SravyaMummana2006/AI-EYE-MONITOR" target="_blank" rel="noopener noreferrer" class="repo-link-btn">
+                <span>View Source</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 6. AirCanvas (AirWriting) -->
+          <article class="project-card" data-category="ai-vision">
+            <div class="card-top-meta">
+              <span class="proj-badge">Human-Computer Interaction</span>
+              <span class="proj-status">Gesture State Machine</span>
+            </div>
+            <h3 class="proj-title">AirCanvas: Touchless Gesture Canvas</h3>
+            <p class="proj-tagline">Real-Time In-Air Drawing via Hand Landmark Tracking</p>
+            
+            <div class="proj-deepdive">
+              <div class="deepdive-block">
+                <h5>1. Problem Solved</h5>
+                <p>Interactive digital whiteboard presentations and touchless sketching typically require proprietary hardware or active stylus digitizers.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>2. Why I Built It</h5>
+                <p>To enable natural, in-air drawing and gesture interaction using standard laptop webcams without requiring sensors, gloves, or physical screens.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>3. Technical Mechanism</h5>
+                <p>Tracks 21 3D hand landmarks using MediaPipe Hands. Isolates fingertip motion trajectories and integrates an intuitive finite state machine (pinch to draw, flat palm for tool selection/palette selection). Renders continuous Bezier smoothed strokes on a transparent OpenCV canvas.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>4. Technologies Used</h5>
+                <div class="tech-tag-group">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">MediaPipe Hands</span>
+                  <span class="tech-tag">OpenCV</span>
+                  <span class="tech-tag">NumPy</span>
+                </div>
+              </div>
+              <div class="deepdive-block">
+                <h5>5. What Makes It Unique</h5>
+                <p>Zero-latency stroke rendering with gesture-driven color switching, variable thickness modulation, and touchless canvas clearing.</p>
+              </div>
+            </div>
+
+            <div class="card-footer-actions">
+              <a href="https://github.com/SravyaMummana2006/AirWriting" target="_blank" rel="noopener noreferrer" class="repo-link-btn">
+                <span>View Source</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 7. Intelligent Investment Engine -->
+          <article class="project-card" data-category="crypto">
+            <div class="card-top-meta">
+              <span class="proj-badge">Financial Engineering</span>
+              <span class="proj-status">Fisher Inflation Logic</span>
+            </div>
+            <h3 class="proj-title">Intelligent Investment Decision Engine</h3>
+            <p class="proj-tagline">Macroeconomic Modeling &amp; Real Purchasing-Power Telemetry</p>
+            
+            <div class="proj-deepdive">
+              <div class="deepdive-block">
+                <h5>1. Problem Solved</h5>
+                <p>Common retail investment tools project nominal portfolio growth while ignoring inflation-adjusted purchasing power erosion and downside volatility.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>2. Why I Built It</h5>
+                <p>To provide personal investors with realistic macroeconomic portfolio telemetry that calculates true post-inflation real capital longevity.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>3. Technical Mechanism</h5>
+                <p>Applies the Fisher equation to model real vs. nominal returns. Simulates SIP compounding, multi-asset risk allocation (equities, debt, gold), and stress-tests conservative, realistic, and aggressive market trajectories with interactive Plotly telemetry and structured CSV exports.</p>
+              </div>
+              <div class="deepdive-block">
+                <h5>4. Technologies Used</h5>
+                <div class="tech-tag-group">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Streamlit</span>
+                  <span class="tech-tag">Plotly</span>
+                  <span class="tech-tag">Pandas</span>
+                  <span class="tech-tag">Financial Modeling</span>
+                </div>
+              </div>
+              <div class="deepdive-block">
+                <h5>5. What Makes It Unique</h5>
+                <p>Transparent real purchasing-power erosion modeling and scenario-based drawdown stress testing instead of oversimplified compounding curves.</p>
+              </div>
+            </div>
+
+            <div class="card-footer-actions">
+              <a href="https://github.com/SravyaMummana2006/invest-engine" target="_blank" rel="noopener noreferrer" class="repo-link-btn">
+                <span>View Source</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Chess Section -->
+    <section class="section-wrap" id="chess">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Interactive Terminal</span>
+          <h2 class="section-title">Play a Game of Chess</h2>
+          <p class="section-desc">
+            An actual playable chess engine running natively in your browser. Click any piece to view legal moves, play locally with a friend, or challenge the lightweight engine AI.
+          </p>
+        </div>
+
+        <!-- Chess Container Target -->
+        <div id="chess-interactive-container"></div>
+      </div>
+    </section>
+
+    <!-- Lo-Fi Music Lounge Section -->
+    <section class="section-wrap" id="lofi">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Personal Music Lounge</span>
+          <h2 class="section-title">Romantic Lo-Fi Player</h2>
+          <p class="section-desc">
+            A relaxed audio space for late-night coding sessions. Built with zero autoplay, real-time waveform visualization, and tactile vinyl animations.
+          </p>
+        </div>
+
+        <!-- Lo-Fi Container Target -->
+        <div id="lofi-interactive-container"></div>
+      </div>
+    </section>
+
+    <!-- Connect & Contact -->
+    <section class="section-wrap" id="connect">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Connect &amp; Collaborate</h2>
+          <p class="section-desc">
+            Whether you want to discuss media forensics, high-throughput systems, or open-source research, my inbox is always open.
+          </p>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="https://github.com/SravyaMummana2006" target="_blank" rel="noopener noreferrer" class="cta-btn cta-primary">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            GitHub (@SravyaMummana2006)
+          </a>
+          <a href="https://www.linkedin.com/in/sravya-mummana/" target="_blank" rel="noopener noreferrer" class="cta-btn cta-secondary">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            LinkedIn Profile
+          </a>
+          <a href="https://github.com/SravyaMummana2006?tab=repositories" target="_blank" rel="noopener noreferrer" class="cta-btn cta-secondary">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+            All Repositories
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-social-row">
+        <a href="https://github.com/SravyaMummana2006" target="_blank" rel="noopener noreferrer" class="social-pill">
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/sravya-mummana/" target="_blank" rel="noopener noreferrer" class="social-pill">
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/SravyaMummana2006/SravyaMummana2006" target="_blank" rel="noopener noreferrer" class="social-pill">
+          <span>Profile README Repo</span>
+        </a>
+      </div>
+
+      <p class="footer-copy">
+        Crafted by Sravya Mummana &bull; Emerald &amp; Dark Theme &bull; &copy; <span id="current-year">2026</span> All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/chess.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

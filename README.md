@@ -1,17 +1,32 @@
 <div align="center">
 
   <!-- Header Banner (SMIL Animated) -->
-  <a href="https://github.com/SravyaMummana2006">
+  <a href="https://sravyamummana2006.github.io/">
     <img src="./assets/header-banner.svg" alt="Sravya Mummana - AI/ML Engineer & Systems Developer" width="100%" />
   </a>
 
   <!-- Animated Typing Headline -->
-  <a href="https://github.com/SravyaMummana2006">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=1200&color=10B981&center=true&vCenter=true&width=680&lines=Building+Production-Ready+AI+%26+Deep+Learning+Systems;Engineering+High-Throughput+Systems+in+Rust+%26+Java;Investigating+Biometric+Media+Authenticity+%26+rPPG;Architecting+Verifiable%2C+Cryptographic+Cloud+Backends" alt="Typing SVG" />
+  <a href="https://sravyamummana2006.github.io/">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=1200&color=10B981&center=true&vCenter=true&width=680&lines=Computer+Science+%26+Engineering+Student;Investigating+Biometric+Media+Authenticity+%26+rPPG;Engineering+High-Throughput+Systems+in+Rust+%26+Java;Developing+Verifiable%2C+Cryptographic+Architectures" alt="Typing SVG" />
   </a>
 
   <p align="center">
-    <b>AI/ML Engineer</b> &nbsp;•&nbsp; <b>Software Developer</b> &nbsp;•&nbsp; <b>Research Enthusiast</b>
+    <b>AI/ML Engineer</b> &nbsp;&bull;&nbsp; <b>Systems Developer</b> &nbsp;&bull;&nbsp; <b>Research Enthusiast</b>
+  </p>
+
+  <!-- Interactive Portfolio & Lounge Quick Link -->
+  <p align="center">
+    <a href="https://sravyamummana2006.github.io/">
+      <img src="https://img.shields.io/badge/Live_Interactive_Portfolio-05080c?style=for-the-badge&logo=googlechrome&logoColor=10b981&labelColor=05080c" alt="Live Portfolio" />
+    </a>
+    &nbsp;
+    <a href="https://sravyamummana2006.github.io/#chess">
+      <img src="https://img.shields.io/badge/Play_Live_Chess-05080c?style=for-the-badge&logo=lichess&logoColor=34d399&labelColor=05080c" alt="Play Live Chess" />
+    </a>
+    &nbsp;
+    <a href="https://sravyamummana2006.github.io/#lofi">
+      <img src="https://img.shields.io/badge/Romantic_Lo--Fi_Lounge-05080c?style=for-the-badge&logo=applepodcasts&logoColor=10b981&labelColor=05080c" alt="Romantic Lo-Fi Lounge" />
+    </a>
   </p>
 
   <p align="center">
@@ -22,15 +37,13 @@
 
 ---
 
-## 01. Professional Introduction
+## 01. Personal Introduction
 
-I am a Computer Science undergraduate specializing in **Artificial Intelligence and Machine Learning**, focused on building robust, high-performance software systems and conducting rigorous applied AI research. 
+Hi, I am **Sravya Mummana**, a Computer Science and Engineering student focused on applied machine learning, systems programming, and empirical research.
 
-My work bridges the gap between theoretical machine learning and production systems engineering:
-- **Biometric & Media Forensics**: Designing multimodal deepfake detection systems that combine convolutional neural networks with physiological signals (remote photoplethysmography / rPPG) and ocular kinematics under strict bipartite actor isolation.
-- **High-Throughput Systems**: Engineering low-latency, zero-dependency streaming parsers and concurrent data processing pipelines in **Rust** and **Java 21**, optimizing for memory locality, thread scalability, and minimal heap allocations.
-- **Verifiable Backend Architectures**: Developing API-first, self-hosted evaluation platforms featuring Argon2id authentication, deterministic scoring normalization, and Ed25519 cryptographic signature verification.
-- **Empirical Rigor**: Prioritizing reproducible benchmarks, formal statistical confidence intervals, and automated test coverage over unverified claims.
+I enjoy exploring the boundary where theoretical machine learning models intersect with production systems engineering. Rather than treating artificial intelligence as a disconnected black box, I am interested in understanding how models behave under strict evaluation constraints—such as verifying media authenticity through physiological pulse signals, eliminating judge bias in platforms using cryptographic primitives, and squeezing maximum throughput out of bare-metal hardware using zero-dependency Rust.
+
+When I am not writing code or analyzing benchmark distributions, you will usually find me playing chess, listening to romantic lo-fi beats, or exploring open-source repositories.
 
 <div align="center">
   <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
@@ -38,7 +51,115 @@ My work bridges the gap between theoretical machine learning and production syst
 
 ---
 
-## 02. Technical Skills & Toolkit
+## 02. Interactive Web Suite: Playable Chess & Lo-Fi Lounge
+
+GitHub READMEs cannot execute custom JavaScript, so I built an accompanying static portfolio application with live interactive features:
+
+<div align="center">
+  <a href="https://sravyamummana2006.github.io/">
+    <img src="./assets/interactive-lounge.svg" alt="Interactive Chess & Lo-Fi Lounge Banner" width="100%" />
+  </a>
+</div>
+
+<br />
+
+- ♟️ **Native Playable Chess Game**: Full legal move validation (castling, en passant, promotion, checkmate, stalemate), click-to-move square highlights, SAN move streaming, move undo, captured material trays, and a lightweight minimax AI opponent to test your skills.
+- 🎵 **Romantic Lo-Fi Music Player**: An ambient, non-intrusive listening space with tactile vinyl disc animations, live audio waveforms, seekable progress scrubbing, volume controls, and a strict no-autoplay policy.
+
+👉 **[Launch the Interactive Portfolio & Play Live &rarr;](https://sravyamummana2006.github.io/)**
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+</div>
+
+---
+
+## 03. Featured Engineering & Research Projects
+
+Every project here represents real software I designed, benchmarked, and implemented:
+
+### 1. 🔬 [BIOTrace: Biological Intelligence & Multimodal Media Authenticity](https://github.com/SravyaMummana2006/BioTrace)
+`[FLAGSHIP RESEARCH]` `[PROTOCOL C ISOLATED]` `[344 TESTS PASSING]`
+
+* **1. Problem Solved**: Standard deepfake detectors rely on spatial artifact detection in facial images, which easily breaks under video compression, noise, or modern diffusion generators.
+* **2. Why I Built It**: To build an evasion-resistant forensic detector that looks beyond superficial pixels into true biological vitality—subcutaneous blood circulation and involuntary eye mechanics—which synthetic generators struggle to replicate coherently.
+* **3. How It Works Technically**: Evaluated on the HiDF benchmark with strict Protocol C bipartite actor isolation (zero identity overlap between 6,106 training and 1,308 test videos). Combines EfficientNet-B0 visual representations with remote photoplethysmography (rPPG via CHROM & POS algorithms) and Eye Aspect Ratio (EAR) kinematics. Features a decoupled Java 21 Swing Forensic Workstation with live JFreeChart pulse telemetry paired with a Python FastAPI inference service.
+* **4. Technologies Used**: `Java 21 LTS`, `Python 3.11`, `PyTorch 2.6`, `FastAPI`, `OpenCV`, `MediaPipe`, `SQLite JDBC`, `FlatLaf`, `Maven`.
+* **5. What Makes It Unique**: Achieved **0.7952 ROC-AUC** and **0.7799 PR-AUC** under rigorous zero-identity-leakage actor partitioning, with 104 recovered visual failure cases and 344 automated test assertions.
+
+---
+
+### 2. ⚡ [SPEED_DEMON: High-Throughput Log Ingestion Engine](https://github.com/SravyaMummana2006/SPEED_DEMON)
+`[SYSTEMS PROGRAMMING]` `[ZERO-CRATE RUST]` `[PARALLEL LOG ENGINE]`
+
+* **1. Problem Solved**: Telemetry pipelines frequently suffer from high heap allocation overhead, thread lock contention, and excessive memory bloat when ingesting large log volumes.
+* **2. Why I Built It**: To test how far zero-dependency systems optimizations in pure Rust can push throughput using only the standard library.
+* **3. How It Works Technically**: Implements multithreaded chunk newline alignment using `std::thread::scope`, reusable 1 MiB streaming buffers per thread, custom byte-slice dictionary interning, and packed 64-bit composite group keys (`(hour_key << 32) | endpoint_id`). Zero external crates and zero `unsafe` blocks.
+* **4. Technologies Used**: `Rust 1.80+`, `std::thread::scope`, `Streaming I/O`, `Zero External Dependencies`, `Cargo LTO`.
+* **5. What Makes It Unique**: Parsed and aggregated **3.1 million log records (238 MB)** on an Intel Core i5-13420H (12 logical cores) in **~437 ms** (1.81x speedup over single-threaded baseline) while keeping peak working set strictly below 270 MB.
+
+---
+
+### 3. 🛡️ [DOGFOOD 2026: Verifiable Hackathon Judging & Evaluation Platform](https://github.com/SravyaMummana2006/dogfood)
+`[CRYPTOGRAPHIC INTEGRITY]` `[ED25519 SIGNATURES]` `[ARGON2ID]`
+
+* **1. Problem Solved**: Hackathon and competition evaluation often suffers from uncalibrated judge scoring, score leaks, and unverified winner certifications.
+* **2. Why I Built It**: To build a self-hosted evaluation backend that ensures mathematical fairness in rubric scoring and cryptographic auditability for every submission and decision.
+* **3. How It Works Technically**: Features salted Argon2id password hashing, high-entropy session management, server-side Min-Max rubric score normalization across independent criteria to eliminate judge bias, immutable PostgreSQL audit logs, and native Ed25519 digital keypair signing for tamper-proof winner certificates.
+* **4. Technologies Used**: `TypeScript`, `Node.js`, `PostgreSQL`, `Argon2id`, `Ed25519 Cryptography`, `Docker Compose`.
+* **5. What Makes It Unique**: Combines server-side statistical score normalization with asymmetric digital signatures, mathematically preventing judge bias and producing tamper-evident winner certificates.
+
+---
+
+### 4. 🛰️ [AI Land Use & Deforestation Analysis](https://github.com/SravyaMummana2006/AI-LAND-USE-AND-DEFORESTRATION-ANALYSIS)
+`[GEOSPATIAL REMOTE SENSING]` `[TEMPORAL CNN]` `[GEMINI REASONING]`
+
+* **1. Problem Solved**: Illegal logging and rapid land degradation often go unaddressed due to manual satellite inspection delays and lack of automated ecological impact scoring.
+* **2. Why I Built It**: To automate temporal change detection across satellite image pairs and translate raw vision telemetry into human-readable policy assessments.
+* **3. How It Works Technically**: Analyzes temporal satellite pairs using deep convolutional networks (CNN) and OpenCV structural change detection. Performs 5-class land segmentation (Forest, Water, Urban, Agriculture, Barren), computes an Environmental Impact Score (EIS), and connects with Google Gemini API for structured ecological risk assessments.
+* **4. Technologies Used**: `Python`, `TensorFlow / Keras`, `OpenCV`, `Google Gemini API`, `Streamlit`.
+* **5. What Makes It Unique**: Bridges pixel-level surface canopy reduction metrics with multimodal generative AI reasoning to generate actionable environmental risk summaries.
+
+---
+
+### 5. 👁️ [AI Eye Health & Fatigue Monitor](https://github.com/SravyaMummana2006/AI-EYE-MONITOR)
+`[EDGE COMPUTER VISION]` `[OCULAR KINEMATICS]` `[GLASSES-OPTIMIZED]`
+
+* **1. Problem Solved**: Commercial blink and drowsiness detectors generate persistent false alarms for individuals wearing prescription glasses due to reflection glare and lens distortions.
+* **2. Why I Built It**: To provide a reliable, edge-friendly ocular fatigue monitor tailored specifically for continuous real-world use and glasses wearers.
+* **3. How It Works Technically**: Tracks 468 facial mesh landmarks in real time via MediaPipe Face Mesh. Computes dual-eye Eye Aspect Ratio (EAR) combined with an adaptive baseline threshold calibration algorithm and temporal moving-average smoothing. Monitors blink velocity, frequency per minute, prolonged closure alerts, and ergonomic screen distance.
+* **4. Technologies Used**: `Python`, `MediaPipe Face Mesh`, `OpenCV`, `NumPy`.
+* **5. What Makes It Unique**: Dynamic glasses-friendly baseline calibration that eliminates false positive blink misclassifications caused by specular frame reflections.
+
+---
+
+### 6. ✋ [AirCanvas: Touchless Gesture Canvas](https://github.com/SravyaMummana2006/AirWriting)
+`[HUMAN-COMPUTER INTERACTION]` `[GESTURE STATE MACHINE]` `[OPENCV]`
+
+* **1. Problem Solved**: Interactive digital whiteboard presentations and touchless sketching typically require proprietary hardware or active digitizer tablets.
+* **2. Why I Built It**: To enable natural, in-air drawing and gesture interaction using standard laptop webcams without requiring specialized sensors, markers, or physical screens.
+* **3. How It Works Technically**: Tracks 21 3D hand landmarks using MediaPipe Hands. Isolates fingertip motion trajectories and integrates an intuitive finite state machine (pinch to draw, flat palm for tool selection/palette selection). Renders continuous Bezier smoothed strokes on a transparent OpenCV canvas overlay.
+* **4. Technologies Used**: `Python`, `MediaPipe Hands`, `OpenCV`, `NumPy`.
+* **5. What Makes It Unique**: Intuitive gesture state-machine allowing real-time color picking, variable brush sizing, and zero-latency stroke rendering with standard laptop webcams.
+
+---
+
+### 7. 📈 [Intelligent Investment Decision Engine](https://github.com/SravyaMummana2006/invest-engine)
+`[FINANCIAL MODELING]` `[FISHER INFLATION LOGIC]` `[SCENARIO TELEMETRY]`
+
+* **1. Problem Solved**: Common retail investment calculators project nominal portfolio growth while ignoring inflation-adjusted purchasing power erosion and downside volatility.
+* **2. Why I Built It**: To provide personal investors with realistic macroeconomic portfolio telemetry that calculates true post-inflation real capital longevity.
+* **3. How It Works Technically**: Applies the Fisher equation to model real vs. nominal returns. Simulates SIP compounding, multi-asset risk allocation (equities, debt, gold), and stress-tests conservative, realistic, and aggressive market trajectories with interactive Plotly telemetry and structured CSV exports.
+* **4. Technologies Used**: `Python`, `Streamlit`, `Plotly`, `Pandas`, `Financial Modeling`.
+* **5. What Makes It Unique**: Transparent real purchasing-power erosion modeling and scenario-based drawdown stress testing instead of oversimplified compounding curves.
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+</div>
+
+---
+
+## 04. Technical Skills & Toolkit
 
 Technologies verified through production implementations, research pipelines, and systems code across my public repositories:
 
@@ -76,36 +197,19 @@ Technologies verified through production implementations, research pipelines, an
       <img src="https://img.shields.io/badge/std::thread::scope-0d1117?style=flat-square&logo=rust&logoColor=10b981" alt="Multithreading" />
       <img src="https://img.shields.io/badge/Argon2id-0d1117?style=flat-square&logo=auth0&logoColor=10b981" alt="Argon2id" />
       <img src="https://img.shields.io/badge/Ed25519_Crypto-0d1117?style=flat-square&logo=securityscorecard&logoColor=10b981" alt="Ed25519" />
-      <img src="https://img.shields.io/badge/Pydantic_v2-0d1117?style=flat-square&logo=pydantic&logoColor=10b981" alt="Pydantic" />
-      <img src="https://img.shields.io/badge/REST_APIs-0d1117?style=flat-square&logo=postman&logoColor=10b981" alt="REST" />
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Databases &amp; Storage</b></td>
-    <td>
       <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=10b981" alt="PostgreSQL" />
       <img src="https://img.shields.io/badge/SQLite_JDBC-0d1117?style=flat-square&logo=sqlite&logoColor=10b981" alt="SQLite" />
-      <img src="https://img.shields.io/badge/Relational_Modeling-0d1117?style=flat-square&logo=databricks&logoColor=10b981" alt="Relational Modeling" />
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><b>UI &amp; Visualization</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Java_Swing_FlatLaf-0d1117?style=flat-square&logo=openjdk&logoColor=10b981" alt="FlatLaf Swing" />
-      <img src="https://img.shields.io/badge/JFreeChart_Telemetry-0d1117?style=flat-square&logo=apache&logoColor=10b981" alt="JFreeChart" />
-      <img src="https://img.shields.io/badge/Streamlit-0d1117?style=flat-square&logo=streamlit&logoColor=10b981" alt="Streamlit" />
-      <img src="https://img.shields.io/badge/Plotly-0d1117?style=flat-square&logo=plotly&logoColor=10b981" alt="Plotly" />
     </td>
   </tr>
   <tr>
     <td valign="top"><b>Tools &amp; Infrastructure</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=10b981&labelColor=0d1117" alt="Git" />
+      <img src="https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=10b981" alt="Git" />
       <img src="https://img.shields.io/badge/GitHub_Actions-0d1117?style=flat-square&logo=githubactions&logoColor=10b981" alt="GitHub Actions" />
       <img src="https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=10b981" alt="Docker" />
       <img src="https://img.shields.io/badge/Apache_Maven-0d1117?style=flat-square&logo=apachemaven&logoColor=10b981" alt="Maven" />
       <img src="https://img.shields.io/badge/Cargo-0d1117?style=flat-square&logo=rust&logoColor=10b981" alt="Cargo" />
-      <img src="https://img.shields.io/badge/Linux_Environments-0d1117?style=flat-square&logo=linux&logoColor=10b981" alt="Linux" />
+      <img src="https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=10b981" alt="Linux" />
     </td>
   </tr>
 </table>
@@ -116,67 +220,12 @@ Technologies verified through production implementations, research pipelines, an
 
 ---
 
-## 03. Featured Engineering & Research Projects
+## 05. Open Source Engagement
 
-Inspect my genuine implementations and source code across key engineering domains:
-
-### 🔬 [BIOTrace: Biological Intelligence & Multimodal Media Authenticity](https://github.com/SravyaMummana2006/BioTrace)
-`[FLAGSHIP RESEARCH]` `[PROTOCOL C ISOLATED]` `[344 TESTS PASSING]`
-
-- **Scientific Core**: Detects synthetic and manipulated facial videos by combining convolutional visual representations (EfficientNet-B0) with remote photoplethysmography (subcutaneous blood volume pulse extraction via CHROM & POS algorithms) and ocular kinematics (Eye Aspect Ratio velocities & bilateral asymmetry).
-- **Identity-Isolated Partitioning**: Evaluated strictly on the HiDF benchmark under Protocol C with bipartite actor isolation (zero identity leakage between 6,106 training and 1,308 test videos).
-- **Two-Tier Architecture**: Decoupled asynchronous architecture pairing a **Java 21 Swing Forensic Workstation** (FlatLaf Dark theme, live JFreeChart pulse telemetry, embedded SQLite JDBC persistence) with a high-throughput **Python FastAPI AI inference service**.
-- **Verification & Results**: Achieved **0.7952 ROC-AUC** and **0.7799 PR-AUC** with 104 recovered visual failure cases; validated through **344 passing automated unit and integration tests**.
-- **Stack**: `Java 21 LTS` • `Python 3.11` • `PyTorch 2.6` • `FastAPI` • `OpenCV` • `MediaPipe` • `SQLite` • `Maven`
-
----
-
-### ⚡ [SPEED_DEMON: High-Throughput Ingestion & Metrics Engine](https://github.com/SravyaMummana2006/SPEED_DEMON)
-`[SYSTEMS PROGRAMMING]` `[ZERO-CRATE RUST]` `[PARALLEL LOG ENGINE]`
-
-- **Systems Architecture**: Designed a parallelized log parsing and metrics aggregation pipeline utilizing the Rust standard library only (`std::thread::scope`, zero external dependencies, zero `unsafe` blocks).
-- **Low-Level Optimizations**: Implemented multithreaded chunk newline alignment, reusable 1 MiB streaming buffers per thread, custom byte-slice dictionary interning, and packed 64-bit group composite keys (`(hour_key << 32) | endpoint_id`).
-- **Benchmarked Performance**: Parsed and aggregated **3.1 million log records (238 MB)** on an Intel Core i5-13420H (12 logical cores) in **~437 ms** (a 1.81x speedup over the single-threaded baseline) while keeping peak working set strictly below 270 MB.
-- **Stack**: `Rust 1.80+` • `Concurrency (std::thread::scope)` • `Streaming I/O` • `Zero External Crates` • `Cargo LTO`
-
----
-
-### 🛡️ [DOGFOOD 2026: Verifiable Hackathon Judging & Evaluation Platform](https://github.com/SravyaMummana2006/dogfood)
-`[CRYPTOGRAPHIC AUDITABILITY]` `[ED25519 SIGNATURES]` `[ARGON2ID]`
-
-- **Cryptographic Integrity**: Enforces strict server-side authorization with salted **Argon2id** password hashing, high-entropy session management, and **native Ed25519 digital signing** for tamper-proof winner certificate verification.
-- **Deterministic Evaluation**: Implements server-side Min-Max rubric score normalization across independent criteria to eliminate judge bias, peer score leakage, and unpenalized missing evaluation entries.
-- **Relational Auditability**: Features relational data integrity backed by PostgreSQL schema constraints and trigger-enforced immutable audit logs for every scoring event and status transition.
-- **Stack**: `TypeScript` • `Node.js` • `PostgreSQL` • `Argon2id` • `Ed25519 Crypto` • `Docker Compose`
-
----
-
-### 🛰️ [AI Land Use & Deforestation Analysis](https://github.com/SravyaMummana2006/AI-LAND-USE-AND-DEFORESTRATION-ANALYSIS)
-`[GEOSPATIAL REMOTE SENSING]` `[TEMPORAL CNN]` `[GEMINI LLM REASONING]`
-
-- **Satellite Computer Vision**: Analyzes temporal satellite image pairs using deep convolutional networks (CNN) and OpenCV structural change detection.
-- **5-Class Land Segmentation**: Classifies geospatial regions into Forest, Water, Urban, Agriculture, and Barren terrain.
-- **Environmental Impact Engine**: Quantifies surface canopy reduction, computes an automated Environmental Impact Score (EIS), and leverages multimodal LLMs (Gemini API) for structured natural-language ecological risk assessments.
-- **Stack**: `Python` • `TensorFlow / Keras` • `OpenCV` • `Google Gemini API` • `Streamlit`
-
----
-
-### 👁️ [AI Eye Health & Fatigue Monitor](https://github.com/SravyaMummana2006/AI-EYE-MONITOR)
-`[EDGE COMPUTER VISION]` `[OCULAR KINEMATICS]` `[GLASSES-OPTIMIZED]`
-
-- **Biometric Landmark Tracking**: Tracks 468 facial mesh landmarks in real time using MediaPipe Face Mesh and OpenCV to calculate dual-eye Eye Aspect Ratio (EAR).
-- **Glasses-Friendly Calibration**: Engineered an adaptive baseline threshold calibration algorithm combined with temporal moving-average smoothing to eliminate glare and specular reflection artifacts for glasses wearers.
-- **Kinematic Analysis**: Detects multi-frame blinks, monitors blink velocity and frequency per minute, triggers drowsiness warnings upon prolonged eye closure, and calculates ergonomic screen distance.
-- **Stack**: `Python` • `MediaPipe Face Mesh` • `OpenCV` • `NumPy`
-
----
-
-### 📈 [Intelligent Investment Decision Engine](https://github.com/SravyaMummana2006/invest-engine)
-`[FINANCIAL MODELING]` `[FISHER INFLATION LOGIC]` `[SCENARIO TELEMETRY]`
-
-- **Financial Modeling**: Models real purchasing-power erosion and future value compounding using the Fisher equation for inflation-adjusted goal planning.
-- **Scenario Telemetry**: Simulates conservative, realistic, and aggressive market trajectories across multi-asset risk matrices (equities, debt, commodities) with interactive Plotly telemetry and structured CSV/JSON report generation.
-- **Stack**: `Python` • `Streamlit` • `Plotly` • `Pandas` • `Financial Modeling`
+I actively engage in open-source software and security research:
+* **[DIPY (Diffusion Imaging in Python)](https://github.com/dipy/dipy)**: Participant in 3D/4D medical imaging algorithms and open-source scientific Python workflows.
+* **[OWASP / OpenCRE](https://github.com/OWASP/OpenCRE)**: Contributing to security standard mappings, requirements engineering, and verification schemas.
+* **[OWASP Nettacker](https://github.com/OWASP/Nettacker)**: Community vulnerability scanner investigations and penetration testing tools.
 
 <div align="center">
   <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
@@ -184,40 +233,11 @@ Inspect my genuine implementations and source code across key engineering domain
 
 ---
 
-## 04. Research & Engineering Interests
-
-Areas where I focus my research inquiry and systems development:
-
-```
-┌─────────────────────────────────┐   ┌─────────────────────────────────┐
-│  BIOMETRIC MEDIA AUTHENTICITY   │   │     HIGH-THROUGHPUT SYSTEMS     │
-├─────────────────────────────────┤   ├─────────────────────────────────┤
-│ • Remote photoplethysmography   │   │ • Zero-allocation stream I/O    │
-│   (CHROM & POS rPPG extraction) │   │ • Data locality & SIMD packing  │
-│ • Ocular kinematics & EAR       │   │ • Cache-conscious algorithms    │
-│ • Bipartite actor isolation     │   │ • Lock-free concurrent models   │
-└─────────────────────────────────┘   └─────────────────────────────────┘
-┌─────────────────────────────────┐   ┌─────────────────────────────────┐
-│     APPLIED COMPUTER VISION     │   │     CRYPTOGRAPHIC INTEGRITY     │
-├─────────────────────────────────┤   ├─────────────────────────────────┤
-│ • Temporal change detection     │   │ • Digital signatures (Ed25519)  │
-│ • Multi-spectral remote sensing │   │ • Trigger-enforced audit trails │
-│ • Robust edge landmark tracking │   │ • Deterministic score math      │
-│ • Glare/reflection calibration  │   │ • Verifiable digital records    │
-└─────────────────────────────────┘   └─────────────────────────────────┘
-```
-
-<div align="center">
-  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
-</div>
-
----
-
-## 05. GitHub Statistics & Activity
+## 06. GitHub Activity & Telemetry
 
 <div align="center">
 
-  <!-- Verified Repository Benchmarks & Language Telemetry (Zero Rate-Limit Error Guarantee) -->
+  <!-- Verified Repository Benchmarks & Language Distribution -->
   <a href="https://github.com/SravyaMummana2006">
     <img src="./assets/github-metrics.svg" alt="Sravya's Engineering Benchmarks & Language Distribution" width="100%" />
   </a>
@@ -229,30 +249,13 @@ Areas where I focus my research inquiry and systems development:
     <img src="https://streak-stats.demolab.com?user=SravyaMummana2006&theme=dark&background=0d1117&ring=10b981&fire=10b981&currStreakLabel=10b981&border=21262d" alt="GitHub Contribution Streak" width="100%" />
   </a>
 
-</div>
+  <br /><br />
 
-<br />
-
-| Engineering Domain | Primary Project Repositories | Core Ecosystems | Verification Level |
-| :--- | :--- | :--- | :--- |
-| **Biometric Forensics** | [BioTrace](https://github.com/SravyaMummana2006/BioTrace), [AI-EYE-MONITOR](https://github.com/SravyaMummana2006/AI-EYE-MONITOR) | Python 3.11, Java 21 LTS, PyTorch | Protocol C Isolated (HiDF), 344 Tests |
-| **Systems & Concurrency** | [SPEED_DEMON](https://github.com/SravyaMummana2006/SPEED_DEMON) | Rust 1.80+ (`std::thread::scope`) | 3.1M Ingest in ~437ms (<270MB RAM) |
-| **Secure Platforms** | [DOGFOOD 2026](https://github.com/SravyaMummana2006/dogfood) | TypeScript, PostgreSQL, Node.js | Argon2id + Ed25519 Verifiable Records |
-| **Applied Vision & AI** | [AI-LAND-USE](https://github.com/SravyaMummana2006/AI-LAND-USE-AND-DEFORESTRATION-ANALYSIS), [invest-engine](https://github.com/SravyaMummana2006/invest-engine) | Python, TensorFlow, Streamlit | Computer Vision EIS & Fisher Models |
-
-<div align="center">
-  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
-</div>
-
----
-
-## 06. Contribution Telemetry
-
-<div align="center">
-  <!-- Live SMIL Animated Contribution Snake Console (Zero 404s, Always Animated on GitHub) -->
+  <!-- Live SMIL Animated Contribution Snake Console -->
   <a href="https://github.com/SravyaMummana2006">
     <img src="./assets/contribution-telemetry.svg" alt="Continuous Integration & Live Contribution Telemetry" width="100%" />
   </a>
+
 </div>
 
 <div align="center">
@@ -261,20 +264,7 @@ Areas where I focus my research inquiry and systems development:
 
 ---
 
-## 07. Current Learning & Development Focus
-
-- **Advanced Systems Concurrency**: Deepening low-level lock-free data structures, SIMD intrinsics, and memory allocators in **Rust**.
-- **Edge Inference Acceleration**: Benchmarking ONNX Runtime and TensorRT compilation targets for sub-10ms facial landmark and rPPG inference pipelines.
-- **Graph Neural Networks (GNNs)**: Exploring graph representation learning for code dependency vulnerability graphs and forensic media interaction trees.
-- **Distributed Consensus**: Studying formal verification and fault tolerance models across distributed state machines.
-
-<div align="center">
-  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
-</div>
-
----
-
-## 08. Connect & Professional Inquiries
+## 07. Connect & Professional Inquiries
 
 I welcome technical discussions, research collaborations, and software engineering opportunities:
 
@@ -288,8 +278,8 @@ I welcome technical discussions, research collaborations, and software engineeri
     <img src="https://img.shields.io/badge/LinkedIn_Connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=10b981&labelColor=0d1117" alt="LinkedIn Profile" />
   </a>
   &nbsp;
-  <a href="https://github.com/SravyaMummana2006?tab=repositories">
-    <img src="https://img.shields.io/badge/Public_Repositories-0d1117?style=for-the-badge&logo=git&logoColor=10b981&labelColor=0d1117" alt="Public Repositories" />
+  <a href="https://sravyamummana2006.github.io/">
+    <img src="https://img.shields.io/badge/Interactive_Portfolio-0d1117?style=for-the-badge&logo=googlechrome&logoColor=10b981&labelColor=0d1117" alt="Interactive Portfolio" />
   </a>
 
 </div>
@@ -297,5 +287,5 @@ I welcome technical discussions, research collaborations, and software engineeri
 <br />
 
 <div align="center">
-  <sub>Designed with architectural precision • Deep Charcoal &amp; Emerald Palette • &copy; Sravya Mummana</sub>
+  <sub>Engineered with precision &bull; Deep Charcoal &amp; Emerald Palette &bull; &copy; Sravya Mummana</sub>
 </div>
