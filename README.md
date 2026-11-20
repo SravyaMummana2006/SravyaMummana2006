@@ -171,7 +171,7 @@ I hold a firm commitment to the open-source commonwealth, actively participating
 
 <div align="center">
   <a href="https://sravyamummana2006.github.io/SravyaMummana2006/">
-    <img src="assets/swan-illustration.png" width="100%" alt="Tabula Botanica et Cygnus - Classical Swan and Rose Plate" />
+    <img src="assets/botanical-salon-plate.png" width="100%" alt="The Botanical Salon - Playable Chess &amp; Romantic Lo-Fi Lounge" />
   </a>
 </div>
 
