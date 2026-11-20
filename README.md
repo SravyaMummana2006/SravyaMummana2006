@@ -1,17 +1,10 @@
 <div align="center">
 
   <!-- ================================================================= -->
-  <!-- HERO BOTANICAL HEADER BANNER -->
+  <!-- MASTER BOTANICAL HEADER PLATE -->
   <!-- ================================================================= -->
   <a href="https://sravyamummana2006.github.io/SravyaMummana2006/">
-    <img src="assets/botanical-header.svg" width="100%" alt="Sravya Mummana - Victorian Botanical Journal &amp; Research Portfolio" />
-  </a>
-
-  <br />
-
-  <!-- Botanical Frontispiece Folio -->
-  <a href="https://sravyamummana2006.github.io/SravyaMummana2006/">
-    <img src="assets/floral-corners.svg" width="100%" alt="Florilegium Technologiae - Research Folio Frontispiece" />
+    <img src="assets/botanical-header.png" width="100%" alt="Sravya Mummana - Victorian Botanical Journal &amp; Research Portfolio" />
   </a>
 
   <p align="center">
@@ -55,7 +48,7 @@ My work is guided by a central conviction: **software should be mathematically s
 * **Zero-Crate, High-Throughput Concurrency**: Designing memory-compact, lock-free parallel pipelines in Rust and modern Java that process millions of records with mechanical sympathy and deterministic memory boundaries.
 * **Verifiable Cryptographic Architectures**: Architecting distributed systems fortified with salted Argon2id derivation, ed25519 asymmetric signatures, and verifiable mathematical audit trails.
 
-When away from the terminal, I enjoy classical chess strategy, listening to romantic lo-fi compositions, and studying botanical etchings.
+When away from the terminal, I enjoy classical chess strategy, listening to romantic lo-fi compositions, and studying antique botanical plates.
 
 <div align="center">
   <img src="assets/rose-divider-bud.svg" width="100%" alt="Botanical Rosebud Divider" />
@@ -178,7 +171,7 @@ I hold a firm commitment to the open-source commonwealth, actively participating
 
 <div align="center">
   <a href="https://sravyamummana2006.github.io/SravyaMummana2006/">
-    <img src="assets/swan-illustration.svg" width="100%" alt="Tabula Botanica et Cygnus - Classical Swan and Rose Plate" />
+    <img src="assets/swan-illustration.png" width="100%" alt="Tabula Botanica et Cygnus - Classical Swan and Rose Plate" />
   </a>
 </div>
 
@@ -214,7 +207,7 @@ I welcome scholarly dialogues, engineering inquiries, and collaborative research
   <!-- ================================================================= -->
   <!-- BOTANICAL FOOTER BANNER & EX LIBRIS -->
   <!-- ================================================================= -->
-  <img src="assets/botanical-footer.svg" width="100%" alt="Ex Libris Sravya Mummana - Botanical Garland &amp; Colophon" />
+  <img src="assets/botanical-footer.png" width="100%" alt="Ex Libris Sravya Mummana - Botanical Garland &amp; Colophon" />
 
   <p align="center">
     <sub>Archival Botanical Florilegium &bull; Natural Pigments &amp; Mathematical Rigor &bull; &copy; MMXXVI Sravya Mummana</sub>
