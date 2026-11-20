@@ -1,105 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="880" height="260">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 880 260" width="880" height="260">
+  <!-- Warm Ivory/Parchment Base Background -->
+  <rect x="0" y="0" width="880" height="260" rx="8" fill="#FFFDF9" />
   
-    <defs>
-      <!-- Gradients for Roses -->
-      <radialGradient id="rosePetalCenter" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stop-color="#7A3546" />
-        <stop offset="45%" stop-color="#A65D70" />
-        <stop offset="85%" stop-color="#C98291" />
-        <stop offset="100%" stop-color="#E8B8BD" />
-      </radialGradient>
+  <!-- Outer Filigree Border & Frame in Antique Gold & Sage -->
+  <rect x="8" y="8" width="864" height="244" rx="6" fill="none" stroke="#C5A46D" stroke-width="1.2" />
+  <rect x="14" y="14" width="852" height="232" rx="4" fill="none" stroke="#65785E" stroke-width="0.7" stroke-dasharray="6,3" opacity="0.75" />
 
-      <linearGradient id="roseOuterPetal" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#E8B8BD" />
-        <stop offset="50%" stop-color="#C98291" />
-        <stop offset="100%" stop-color="#A65D70" />
-      </linearGradient>
-
-      <linearGradient id="roseBudGrad" x1="0%" y1="100%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#7A3546" />
-        <stop offset="40%" stop-color="#A65D70" />
-        <stop offset="80%" stop-color="#C98291" />
-        <stop offset="100%" stop-color="#E8B8BD" />
-      </linearGradient>
-
-      <!-- Gradients for Foliage -->
-      <linearGradient id="leafGradMain" x1="0%" y1="100%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#4A5A44" />
-        <stop offset="45%" stop-color="#65785E" />
-        <stop offset="80%" stop-color="#879B80" />
-        <stop offset="100%" stop-color="#9FB298" />
-      </linearGradient>
-
-      <linearGradient id="leafGradSecondary" x1="100%" y1="100%" x2="0%" y2="0%">
-        <stop offset="0%" stop-color="#364232" />
-        <stop offset="50%" stop-color="#556650" />
-        <stop offset="100%" stop-color="#788C72" />
-      </linearGradient>
-
-      <!-- Gradients for Gold Elements -->
-      <linearGradient id="champagneGold" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#9E7D47" />
-        <stop offset="35%" stop-color="#D9BE8D" />
-        <stop offset="70%" stop-color="#C5A46D" />
-        <stop offset="100%" stop-color="#8C6B38" />
-      </linearGradient>
-
-      <linearGradient id="goldFiligree" x1="0%" y1="50%" x2="100%" y2="50%">
-        <stop offset="0%" stop-color="#C5A46D" stop-opacity="0" />
-        <stop offset="30%" stop-color="#C5A46D" stop-opacity="0.9" />
-        <stop offset="50%" stop-color="#E2CCA4" stop-opacity="1" />
-        <stop offset="70%" stop-color="#C5A46D" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#C5A46D" stop-opacity="0" />
-      </linearGradient>
-
-      <!-- Parchment & Ivory Background -->
-      <linearGradient id="parchmentBg" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FFFDF9" />
-        <stop offset="40%" stop-color="#FFF9F2" />
-        <stop offset="80%" stop-color="#FAF2E6" />
-        <stop offset="100%" stop-color="#F4EADB" />
-      </linearGradient>
-
-      <!-- Swan Plumage Gradients -->
-      <linearGradient id="swanWhite" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" />
-        <stop offset="70%" stop-color="#FAF6F0" />
-        <stop offset="100%" stop-color="#E5D9DC" />
-      </linearGradient>
-
-      <linearGradient id="swanShade" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
-        <stop offset="70%" stop-color="#D0C0C6" stop-opacity="0.5" />
-        <stop offset="100%" stop-color="#A8949C" stop-opacity="0.8" />
-      </linearGradient>
-    </defs>
-  
-
-  <!-- Antique Parchment Background -->
-  <rect x="0" y="0" width="880" height="260" rx="8" fill="url(#parchmentBg)" />
-  
-  <!-- Outer Double Hairline Frame in Champagne Gold -->
-  <rect x="14" y="14" width="852" height="232" rx="6" fill="none" stroke="#C5A46D" stroke-width="1.8" />
-  <rect x="20" y="20" width="840" height="220" rx="4" fill="none" stroke="#A65D70" stroke-width="0.8" stroke-dasharray="6,3" opacity="0.75" />
-  <rect x="24" y="24" width="832" height="212" rx="3" fill="none" stroke="#C5A46D" stroke-width="0.6" opacity="0.6" />
-
-  <!-- Victorian Corner Ornamental Rosettes (Inside corners) -->
-  <g transform="translate(24, 24)">
+  <!-- Corner Flourish Accents (Four Corners) -->
+  <!-- Top-Left Corner Node -->
+  <g transform="translate(18, 18)">
     <circle cx="8" cy="8" r="4.5" fill="#C5A46D" />
     <circle cx="8" cy="8" r="2" fill="#FFF9F2" />
     <path d="M 8,0 L 8,16 M 0,8 L 16,8" stroke="#9E7D47" stroke-width="0.8" />
   </g>
-  <g transform="translate(840, 24)">
+  <!-- Top-Right Corner Node -->
+  <g transform="translate(846, 18)">
     <circle cx="8" cy="8" r="4.5" fill="#C5A46D" />
     <circle cx="8" cy="8" r="2" fill="#FFF9F2" />
     <path d="M 8,0 L 8,16 M 0,8 L 16,8" stroke="#9E7D47" stroke-width="0.8" />
   </g>
-  <g transform="translate(24, 220)">
+  <!-- Bottom-Left Corner Node -->
+  <g transform="translate(18, 226)">
     <circle cx="8" cy="8" r="4.5" fill="#C5A46D" />
     <circle cx="8" cy="8" r="2" fill="#FFF9F2" />
     <path d="M 8,0 L 8,16 M 0,8 L 16,8" stroke="#9E7D47" stroke-width="0.8" />
   </g>
-  <g transform="translate(840, 220)">
+  <!-- Bottom-Right Corner Node -->
+  <g transform="translate(846, 226)">
     <circle cx="8" cy="8" r="4.5" fill="#C5A46D" />
     <circle cx="8" cy="8" r="2" fill="#FFF9F2" />
     <path d="M 8,0 L 8,16 M 0,8 L 16,8" stroke="#9E7D47" stroke-width="0.8" />
@@ -152,78 +80,87 @@
       <!-- Terminal Leaf -->
       
     <g transform="translate(0, -30) rotate(0) scale(1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 13.2,-12 22,-31.200000000000003 0,-48 C -22,-31.200000000000003 -13.2,-12 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -13.2,-12 -22,-31.200000000000003 0,-48 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 13.2,-12 22,-31.200000000000003 0,-48 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.76,-24 0,-48" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-9.600000000000001 C 6.6,-12 11,-16.799999999999997 15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-9.600000000000001 C -6.6,-12 -11,-16.799999999999997 -15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-9.600000000000001 C 6.6,-12 11,-16.799999999999997 15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-9.600000000000001 C -6.6,-12 -11,-16.799999999999997 -15.399999999999999,-19.200000000000003" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-19.200000000000003 C 5.5,-22.080000000000002 9.9,-26.400000000000002 14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-19.200000000000003 C -5.5,-22.080000000000002 -9.9,-26.400000000000002 -14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-19.200000000000003 C 5.5,-22.080000000000002 9.9,-26.400000000000002 14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-19.200000000000003 C -5.5,-22.080000000000002 -9.9,-26.400000000000002 -14.3,-29.759999999999998" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-29.759999999999998 C 4.4,-32.64 7.699999999999999,-36.480000000000004 10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-29.759999999999998 C -4.4,-32.64 -7.699999999999999,-36.480000000000004 -10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-29.759999999999998 C 4.4,-32.64 7.699999999999999,-36.480000000000004 10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-29.759999999999998 C -4.4,-32.64 -7.699999999999999,-36.480000000000004 -10.559999999999999,-39.36" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-38.400000000000006 C 2.6399999999999997,-40.32 4.84,-42.72 6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-38.400000000000006 C -2.6399999999999997,-40.32 -4.84,-42.72 -6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-38.400000000000006 C 2.6399999999999997,-40.32 4.84,-42.72 6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-38.400000000000006 C -2.6399999999999997,-40.32 -4.84,-42.72 -6.16,-44.64" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
       <!-- Left Leaflet -->
       <path d="M -1,0 C -8,-2 -15,-6 -22,-12" fill="none" stroke="#4A5A44" stroke-width="1.4" />
       
     <g transform="translate(-22, -12) rotate(-48) scale(1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 C -18,-24.7 -10.799999999999999,-9.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -10.799999999999999,-9.5 -18,-24.7 0,-38 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.44,-19 0,-38" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
       <!-- Right Leaflet -->
       <path d="M 1,8 C 8,6 15,2 22,-4" fill="none" stroke="#4A5A44" stroke-width="1.4" />
       
     <g transform="translate(22, -4) rotate(48) scale(-1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 C -18,-24.7 -10.799999999999999,-9.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -10.799999999999999,-9.5 -18,-24.7 0,-38 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.44,-19 0,-38" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
     </g>
@@ -235,78 +172,87 @@
       <!-- Terminal Leaf -->
       
     <g transform="translate(0, -30) rotate(0) scale(1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 13.2,-12 22,-31.200000000000003 0,-48 C -22,-31.200000000000003 -13.2,-12 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -13.2,-12 -22,-31.200000000000003 0,-48 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 13.2,-12 22,-31.200000000000003 0,-48 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.76,-24 0,-48" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-9.600000000000001 C 6.6,-12 11,-16.799999999999997 15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-9.600000000000001 C -6.6,-12 -11,-16.799999999999997 -15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-9.600000000000001 C 6.6,-12 11,-16.799999999999997 15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-9.600000000000001 C -6.6,-12 -11,-16.799999999999997 -15.399999999999999,-19.200000000000003" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-19.200000000000003 C 5.5,-22.080000000000002 9.9,-26.400000000000002 14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-19.200000000000003 C -5.5,-22.080000000000002 -9.9,-26.400000000000002 -14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-19.200000000000003 C 5.5,-22.080000000000002 9.9,-26.400000000000002 14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-19.200000000000003 C -5.5,-22.080000000000002 -9.9,-26.400000000000002 -14.3,-29.759999999999998" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-29.759999999999998 C 4.4,-32.64 7.699999999999999,-36.480000000000004 10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-29.759999999999998 C -4.4,-32.64 -7.699999999999999,-36.480000000000004 -10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-29.759999999999998 C 4.4,-32.64 7.699999999999999,-36.480000000000004 10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-29.759999999999998 C -4.4,-32.64 -7.699999999999999,-36.480000000000004 -10.559999999999999,-39.36" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-38.400000000000006 C 2.6399999999999997,-40.32 4.84,-42.72 6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-38.400000000000006 C -2.6399999999999997,-40.32 -4.84,-42.72 -6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-38.400000000000006 C 2.6399999999999997,-40.32 4.84,-42.72 6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-38.400000000000006 C -2.6399999999999997,-40.32 -4.84,-42.72 -6.16,-44.64" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
       <!-- Left Leaflet -->
       <path d="M -1,0 C -8,-2 -15,-6 -22,-12" fill="none" stroke="#4A5A44" stroke-width="1.4" />
       
     <g transform="translate(-22, -12) rotate(-48) scale(1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 C -18,-24.7 -10.799999999999999,-9.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -10.799999999999999,-9.5 -18,-24.7 0,-38 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.44,-19 0,-38" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
       <!-- Right Leaflet -->
       <path d="M 1,8 C 8,6 15,2 22,-4" fill="none" stroke="#4A5A44" stroke-width="1.4" />
       
     <g transform="translate(22, -4) rotate(48) scale(-1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 C -18,-24.7 -10.799999999999999,-9.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -10.799999999999999,-9.5 -18,-24.7 0,-38 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.44,-19 0,-38" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
     </g>
@@ -318,78 +264,87 @@
       <!-- Terminal Leaf -->
       
     <g transform="translate(0, -30) rotate(0) scale(1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 13.2,-12 22,-31.200000000000003 0,-48 C -22,-31.200000000000003 -13.2,-12 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -13.2,-12 -22,-31.200000000000003 0,-48 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 13.2,-12 22,-31.200000000000003 0,-48 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.76,-24 0,-48" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-9.600000000000001 C 6.6,-12 11,-16.799999999999997 15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-9.600000000000001 C -6.6,-12 -11,-16.799999999999997 -15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-9.600000000000001 C 6.6,-12 11,-16.799999999999997 15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-9.600000000000001 C -6.6,-12 -11,-16.799999999999997 -15.399999999999999,-19.200000000000003" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-19.200000000000003 C 5.5,-22.080000000000002 9.9,-26.400000000000002 14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-19.200000000000003 C -5.5,-22.080000000000002 -9.9,-26.400000000000002 -14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-19.200000000000003 C 5.5,-22.080000000000002 9.9,-26.400000000000002 14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-19.200000000000003 C -5.5,-22.080000000000002 -9.9,-26.400000000000002 -14.3,-29.759999999999998" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-29.759999999999998 C 4.4,-32.64 7.699999999999999,-36.480000000000004 10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-29.759999999999998 C -4.4,-32.64 -7.699999999999999,-36.480000000000004 -10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-29.759999999999998 C 4.4,-32.64 7.699999999999999,-36.480000000000004 10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-29.759999999999998 C -4.4,-32.64 -7.699999999999999,-36.480000000000004 -10.559999999999999,-39.36" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-38.400000000000006 C 2.6399999999999997,-40.32 4.84,-42.72 6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-38.400000000000006 C -2.6399999999999997,-40.32 -4.84,-42.72 -6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-38.400000000000006 C 2.6399999999999997,-40.32 4.84,-42.72 6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-38.400000000000006 C -2.6399999999999997,-40.32 -4.84,-42.72 -6.16,-44.64" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
       <!-- Left Leaflet -->
       <path d="M -1,0 C -8,-2 -15,-6 -22,-12" fill="none" stroke="#4A5A44" stroke-width="1.4" />
       
     <g transform="translate(-22, -12) rotate(-48) scale(1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 C -18,-24.7 -10.799999999999999,-9.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -10.799999999999999,-9.5 -18,-24.7 0,-38 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.44,-19 0,-38" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
       <!-- Right Leaflet -->
       <path d="M 1,8 C 8,6 15,2 22,-4" fill="none" stroke="#4A5A44" stroke-width="1.4" />
       
     <g transform="translate(22, -4) rotate(48) scale(-1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 C -18,-24.7 -10.799999999999999,-9.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -10.799999999999999,-9.5 -18,-24.7 0,-38 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.44,-19 0,-38" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
     </g>
@@ -403,7 +358,7 @@
       <path d="M -15,35 C -25,65 -15,75 -20,95 C -10,70 0,55 -5,35 Z" fill="#4A5A44" stroke="#364232" stroke-width="0.8" />
       <path d="M 15,35 C 25,65 15,75 20,95 C 10,70 0,55 5,35 Z" fill="#65785E" stroke="#364232" stroke-width="0.8" />
       
-      <!-- Outermost Petal Layer (Layer 1: Broad scalloped reflexed petals) -->
+      <!-- Outermost Petal Layer (Layer 1: Broad scalloped reflexed petals in deep rose) -->
       <path d="M -45,-15 C -75,-30 -80,10 -55,45 C -40,30 -30,10 -45,-15 Z" fill="#A65D70" stroke="#7A3546" stroke-width="0.6" />
       <path d="M 45,-15 C 75,-30 80,10 55,45 C 40,30 30,10 45,-15 Z" fill="#A65D70" stroke="#7A3546" stroke-width="0.6" />
       <path d="M -30,-45 C -45,-75 0,-85 20,-65 C 10,-45 -10,-40 -30,-45 Z" fill="#C98291" stroke="#8E3E53" stroke-width="0.6" />
@@ -464,11 +419,11 @@
       <!-- Sepal Receptacle Base -->
       <ellipse cx="0" cy="5" rx="7" ry="5" fill="#4A5A44" stroke="#364232" stroke-width="0.8" />
       
-      <!-- Swirling Rosebud Petals -->
-      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="url(#roseBudGrad)" stroke="#7A3546" stroke-width="0.7" />
+      <!-- Swirling Rosebud Petals (Dual-tone antique rose layers) -->
+      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="#8E3E53" stroke="#7A3546" stroke-width="0.7" />
       <path d="M -5,-5 C -10,-14 -4,-22 0,-25 C 2,-16 2,-8 -5,-5 Z" fill="#C98291" stroke="#8E3E53" stroke-width="0.6" />
       <path d="M 4,-4 C 8,-12 5,-20 0,-25 C 5,-18 7,-10 4,-4 Z" fill="#E8B8BD" stroke="#A65D70" stroke-width="0.6" />
-      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.6" />
+      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.7" />
 
       <!-- Elongated Sepal Leaves embracing the bud -->
       <path d="M -6,6 C -12,-2 -16,-16 -12,-28 C -8,-14 -4,-2 -2,5 Z" fill="#65785E" stroke="#364232" stroke-width="0.7" />
@@ -485,11 +440,11 @@
       <!-- Sepal Receptacle Base -->
       <ellipse cx="0" cy="5" rx="7" ry="5" fill="#4A5A44" stroke="#364232" stroke-width="0.8" />
       
-      <!-- Swirling Rosebud Petals -->
-      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="url(#roseBudGrad)" stroke="#7A3546" stroke-width="0.7" />
+      <!-- Swirling Rosebud Petals (Dual-tone antique rose layers) -->
+      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="#8E3E53" stroke="#7A3546" stroke-width="0.7" />
       <path d="M -5,-5 C -10,-14 -4,-22 0,-25 C 2,-16 2,-8 -5,-5 Z" fill="#C98291" stroke="#8E3E53" stroke-width="0.6" />
       <path d="M 4,-4 C 8,-12 5,-20 0,-25 C 5,-18 7,-10 4,-4 Z" fill="#E8B8BD" stroke="#A65D70" stroke-width="0.6" />
-      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.6" />
+      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.7" />
 
       <!-- Elongated Sepal Leaves embracing the bud -->
       <path d="M -6,6 C -12,-2 -16,-16 -12,-28 C -8,-14 -4,-2 -2,5 Z" fill="#65785E" stroke="#364232" stroke-width="0.7" />
@@ -546,78 +501,87 @@
       <!-- Terminal Leaf -->
       
     <g transform="translate(0, -30) rotate(0) scale(1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 13.2,-12 22,-31.200000000000003 0,-48 C -22,-31.200000000000003 -13.2,-12 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -13.2,-12 -22,-31.200000000000003 0,-48 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 13.2,-12 22,-31.200000000000003 0,-48 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.76,-24 0,-48" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-9.600000000000001 C 6.6,-12 11,-16.799999999999997 15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-9.600000000000001 C -6.6,-12 -11,-16.799999999999997 -15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-9.600000000000001 C 6.6,-12 11,-16.799999999999997 15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-9.600000000000001 C -6.6,-12 -11,-16.799999999999997 -15.399999999999999,-19.200000000000003" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-19.200000000000003 C 5.5,-22.080000000000002 9.9,-26.400000000000002 14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-19.200000000000003 C -5.5,-22.080000000000002 -9.9,-26.400000000000002 -14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-19.200000000000003 C 5.5,-22.080000000000002 9.9,-26.400000000000002 14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-19.200000000000003 C -5.5,-22.080000000000002 -9.9,-26.400000000000002 -14.3,-29.759999999999998" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-29.759999999999998 C 4.4,-32.64 7.699999999999999,-36.480000000000004 10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-29.759999999999998 C -4.4,-32.64 -7.699999999999999,-36.480000000000004 -10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-29.759999999999998 C 4.4,-32.64 7.699999999999999,-36.480000000000004 10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-29.759999999999998 C -4.4,-32.64 -7.699999999999999,-36.480000000000004 -10.559999999999999,-39.36" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-38.400000000000006 C 2.6399999999999997,-40.32 4.84,-42.72 6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-38.400000000000006 C -2.6399999999999997,-40.32 -4.84,-42.72 -6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-38.400000000000006 C 2.6399999999999997,-40.32 4.84,-42.72 6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-38.400000000000006 C -2.6399999999999997,-40.32 -4.84,-42.72 -6.16,-44.64" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
       <!-- Left Leaflet -->
       <path d="M -1,0 C -8,-2 -15,-6 -22,-12" fill="none" stroke="#4A5A44" stroke-width="1.4" />
       
     <g transform="translate(-22, -12) rotate(-48) scale(1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 C -18,-24.7 -10.799999999999999,-9.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -10.799999999999999,-9.5 -18,-24.7 0,-38 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.44,-19 0,-38" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
       <!-- Right Leaflet -->
       <path d="M 1,8 C 8,6 15,2 22,-4" fill="none" stroke="#4A5A44" stroke-width="1.4" />
       
     <g transform="translate(22, -4) rotate(48) scale(-1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 C -18,-24.7 -10.799999999999999,-9.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -10.799999999999999,-9.5 -18,-24.7 0,-38 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.44,-19 0,-38" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
     </g>
@@ -629,78 +593,87 @@
       <!-- Terminal Leaf -->
       
     <g transform="translate(0, -30) rotate(0) scale(1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 13.2,-12 22,-31.200000000000003 0,-48 C -22,-31.200000000000003 -13.2,-12 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -13.2,-12 -22,-31.200000000000003 0,-48 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 13.2,-12 22,-31.200000000000003 0,-48 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.76,-24 0,-48" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-9.600000000000001 C 6.6,-12 11,-16.799999999999997 15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-9.600000000000001 C -6.6,-12 -11,-16.799999999999997 -15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-9.600000000000001 C 6.6,-12 11,-16.799999999999997 15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-9.600000000000001 C -6.6,-12 -11,-16.799999999999997 -15.399999999999999,-19.200000000000003" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-19.200000000000003 C 5.5,-22.080000000000002 9.9,-26.400000000000002 14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-19.200000000000003 C -5.5,-22.080000000000002 -9.9,-26.400000000000002 -14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-19.200000000000003 C 5.5,-22.080000000000002 9.9,-26.400000000000002 14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-19.200000000000003 C -5.5,-22.080000000000002 -9.9,-26.400000000000002 -14.3,-29.759999999999998" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-29.759999999999998 C 4.4,-32.64 7.699999999999999,-36.480000000000004 10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-29.759999999999998 C -4.4,-32.64 -7.699999999999999,-36.480000000000004 -10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-29.759999999999998 C 4.4,-32.64 7.699999999999999,-36.480000000000004 10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-29.759999999999998 C -4.4,-32.64 -7.699999999999999,-36.480000000000004 -10.559999999999999,-39.36" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-38.400000000000006 C 2.6399999999999997,-40.32 4.84,-42.72 6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-38.400000000000006 C -2.6399999999999997,-40.32 -4.84,-42.72 -6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-38.400000000000006 C 2.6399999999999997,-40.32 4.84,-42.72 6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-38.400000000000006 C -2.6399999999999997,-40.32 -4.84,-42.72 -6.16,-44.64" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
       <!-- Left Leaflet -->
       <path d="M -1,0 C -8,-2 -15,-6 -22,-12" fill="none" stroke="#4A5A44" stroke-width="1.4" />
       
     <g transform="translate(-22, -12) rotate(-48) scale(1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 C -18,-24.7 -10.799999999999999,-9.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -10.799999999999999,-9.5 -18,-24.7 0,-38 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.44,-19 0,-38" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
       <!-- Right Leaflet -->
       <path d="M 1,8 C 8,6 15,2 22,-4" fill="none" stroke="#4A5A44" stroke-width="1.4" />
       
     <g transform="translate(22, -4) rotate(48) scale(-1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 C -18,-24.7 -10.799999999999999,-9.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -10.799999999999999,-9.5 -18,-24.7 0,-38 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.44,-19 0,-38" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
     </g>
@@ -712,78 +685,87 @@
       <!-- Terminal Leaf -->
       
     <g transform="translate(0, -30) rotate(0) scale(1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 13.2,-12 22,-31.200000000000003 0,-48 C -22,-31.200000000000003 -13.2,-12 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -13.2,-12 -22,-31.200000000000003 0,-48 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 13.2,-12 22,-31.200000000000003 0,-48 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.76,-24 0,-48" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-9.600000000000001 C 6.6,-12 11,-16.799999999999997 15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-9.600000000000001 C -6.6,-12 -11,-16.799999999999997 -15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-9.600000000000001 C 6.6,-12 11,-16.799999999999997 15.399999999999999,-19.200000000000003" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-9.600000000000001 C -6.6,-12 -11,-16.799999999999997 -15.399999999999999,-19.200000000000003" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-19.200000000000003 C 5.5,-22.080000000000002 9.9,-26.400000000000002 14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-19.200000000000003 C -5.5,-22.080000000000002 -9.9,-26.400000000000002 -14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-19.200000000000003 C 5.5,-22.080000000000002 9.9,-26.400000000000002 14.3,-29.759999999999998" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-19.200000000000003 C -5.5,-22.080000000000002 -9.9,-26.400000000000002 -14.3,-29.759999999999998" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-29.759999999999998 C 4.4,-32.64 7.699999999999999,-36.480000000000004 10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-29.759999999999998 C -4.4,-32.64 -7.699999999999999,-36.480000000000004 -10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-29.759999999999998 C 4.4,-32.64 7.699999999999999,-36.480000000000004 10.559999999999999,-39.36" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-29.759999999999998 C -4.4,-32.64 -7.699999999999999,-36.480000000000004 -10.559999999999999,-39.36" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-38.400000000000006 C 2.6399999999999997,-40.32 4.84,-42.72 6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-38.400000000000006 C -2.6399999999999997,-40.32 -4.84,-42.72 -6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-38.400000000000006 C 2.6399999999999997,-40.32 4.84,-42.72 6.16,-44.64" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-38.400000000000006 C -2.6399999999999997,-40.32 -4.84,-42.72 -6.16,-44.64" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
       <!-- Left Leaflet -->
       <path d="M -1,0 C -8,-2 -15,-6 -22,-12" fill="none" stroke="#4A5A44" stroke-width="1.4" />
       
     <g transform="translate(-22, -12) rotate(-48) scale(1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 C -18,-24.7 -10.799999999999999,-9.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -10.799999999999999,-9.5 -18,-24.7 0,-38 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.44,-19 0,-38" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
       <!-- Right Leaflet -->
       <path d="M 1,8 C 8,6 15,2 22,-4" fill="none" stroke="#4A5A44" stroke-width="1.4" />
       
     <g transform="translate(22, -4) rotate(48) scale(-1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 C -18,-24.7 -10.799999999999999,-9.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -10.799999999999999,-9.5 -18,-24.7 0,-38 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 10.799999999999999,-9.5 18,-24.7 0,-38 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
       <path d="M 0,0 Q 1.44,-19 0,-38" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-7.6000000000000005 C 5.3999999999999995,-9.5 9,-13.299999999999999 12.6,-15.200000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-7.6000000000000005 C -5.3999999999999995,-9.5 -9,-13.299999999999999 -12.6,-15.200000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-15.200000000000001 C 4.5,-17.48 8.1,-20.900000000000002 11.700000000000001,-23.56" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-15.200000000000001 C -4.5,-17.48 -8.1,-20.900000000000002 -11.700000000000001,-23.56" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-23.56 C 3.6,-25.840000000000003 6.3,-28.88 8.64,-31.159999999999997" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-23.56 C -3.6,-25.840000000000003 -6.3,-28.88 -8.64,-31.159999999999997" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-30.400000000000002 C 2.16,-31.919999999999998 3.96,-33.82 5.040000000000001,-35.34" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-30.400000000000002 C -2.16,-31.919999999999998 -3.96,-33.82 -5.040000000000001,-35.34" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
     </g>
@@ -797,7 +779,7 @@
       <path d="M -15,35 C -25,65 -15,75 -20,95 C -10,70 0,55 -5,35 Z" fill="#4A5A44" stroke="#364232" stroke-width="0.8" />
       <path d="M 15,35 C 25,65 15,75 20,95 C 10,70 0,55 5,35 Z" fill="#65785E" stroke="#364232" stroke-width="0.8" />
       
-      <!-- Outermost Petal Layer (Layer 1: Broad scalloped reflexed petals) -->
+      <!-- Outermost Petal Layer (Layer 1: Broad scalloped reflexed petals in deep rose) -->
       <path d="M -45,-15 C -75,-30 -80,10 -55,45 C -40,30 -30,10 -45,-15 Z" fill="#A65D70" stroke="#7A3546" stroke-width="0.6" />
       <path d="M 45,-15 C 75,-30 80,10 55,45 C 40,30 30,10 45,-15 Z" fill="#A65D70" stroke="#7A3546" stroke-width="0.6" />
       <path d="M -30,-45 C -45,-75 0,-85 20,-65 C 10,-45 -10,-40 -30,-45 Z" fill="#C98291" stroke="#8E3E53" stroke-width="0.6" />
@@ -858,11 +840,11 @@
       <!-- Sepal Receptacle Base -->
       <ellipse cx="0" cy="5" rx="7" ry="5" fill="#4A5A44" stroke="#364232" stroke-width="0.8" />
       
-      <!-- Swirling Rosebud Petals -->
-      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="url(#roseBudGrad)" stroke="#7A3546" stroke-width="0.7" />
+      <!-- Swirling Rosebud Petals (Dual-tone antique rose layers) -->
+      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="#8E3E53" stroke="#7A3546" stroke-width="0.7" />
       <path d="M -5,-5 C -10,-14 -4,-22 0,-25 C 2,-16 2,-8 -5,-5 Z" fill="#C98291" stroke="#8E3E53" stroke-width="0.6" />
       <path d="M 4,-4 C 8,-12 5,-20 0,-25 C 5,-18 7,-10 4,-4 Z" fill="#E8B8BD" stroke="#A65D70" stroke-width="0.6" />
-      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.6" />
+      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.7" />
 
       <!-- Elongated Sepal Leaves embracing the bud -->
       <path d="M -6,6 C -12,-2 -16,-16 -12,-28 C -8,-14 -4,-2 -2,5 Z" fill="#65785E" stroke="#364232" stroke-width="0.7" />
@@ -879,11 +861,11 @@
       <!-- Sepal Receptacle Base -->
       <ellipse cx="0" cy="5" rx="7" ry="5" fill="#4A5A44" stroke="#364232" stroke-width="0.8" />
       
-      <!-- Swirling Rosebud Petals -->
-      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="url(#roseBudGrad)" stroke="#7A3546" stroke-width="0.7" />
+      <!-- Swirling Rosebud Petals (Dual-tone antique rose layers) -->
+      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="#8E3E53" stroke="#7A3546" stroke-width="0.7" />
       <path d="M -5,-5 C -10,-14 -4,-22 0,-25 C 2,-16 2,-8 -5,-5 Z" fill="#C98291" stroke="#8E3E53" stroke-width="0.6" />
       <path d="M 4,-4 C 8,-12 5,-20 0,-25 C 5,-18 7,-10 4,-4 Z" fill="#E8B8BD" stroke="#A65D70" stroke-width="0.6" />
-      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.6" />
+      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.7" />
 
       <!-- Elongated Sepal Leaves embracing the bud -->
       <path d="M -6,6 C -12,-2 -16,-16 -12,-28 C -8,-14 -4,-2 -2,5 Z" fill="#65785E" stroke="#364232" stroke-width="0.7" />
@@ -895,14 +877,14 @@
 
   <!-- Center Decorative Botanical Vignette & Swan Motif -->
   <g id="header-center-ornament">
-    <path d="M 330,35 Q 440,22 550,35" fill="none" stroke="url(#champagneGold)" stroke-width="1.2" />
+    <path d="M 330,35 Q 440,22 550,35" fill="none" stroke="#C5A46D" stroke-width="1.2" />
     <circle cx="440" cy="28" r="3.5" fill="#C5A46D" />
     <path d="M 430,28 Q 440,20 450,28" fill="none" stroke="#9E7D47" stroke-width="1" />
 
-    <!-- Centered Typography with Elegant Serif Stacks -->
+    <!-- Centered Typography with Universal Classical Serif Stacks -->
     <text x="440" y="78" text-anchor="middle" 
-          font-family="Georgia, 'Playfair Display', 'Times New Roman', serif" 
-          font-size="34" font-weight="bold" fill="#3D2922" letter-spacing="4">
+          font-family="Georgia, 'Times New Roman', Times, serif" 
+          font-size="34" font-weight="bold" fill="#3D2922">
       SRAVYA MUMMANA
     </text>
 
@@ -917,29 +899,29 @@
 
     <!-- Subtitle: Research & Engineering Focus -->
     <text x="440" y="122" text-anchor="middle" 
-          font-family="Georgia, 'Times New Roman', serif" 
-          font-size="13" font-style="italic" fill="#6B4D3E" letter-spacing="2.5">
-      ARTIFICIAL INTELLIGENCE &bull; MACHINE LEARNING &bull; RESEARCH
+          font-family="Georgia, 'Times New Roman', Times, serif" 
+          font-size="13" font-style="italic" fill="#6B4D3E">
+      ARTIFICIAL INTELLIGENCE &#8226; MACHINE LEARNING &#8226; RESEARCH
     </text>
 
     <!-- Victorian Classical Motto Badge -->
     <text x="440" y="145" text-anchor="middle" 
-          font-family="Georgia, 'Times New Roman', serif" 
-          font-size="11" fill="#879B80" letter-spacing="2">
-      &mdash; Computer Science &amp; Engineering &bull; Systems &amp; Biometric Inquiry &mdash;
+          font-family="Georgia, 'Times New Roman', Times, serif" 
+          font-size="11" fill="#879B80">
+      &#8212; Computer Science &amp; Engineering &#8226; Systems &amp; Biometric Inquiry &#8212;
     </text>
 
     <!-- Graceful Victorian Swan Crest at Center Base -->
     
     <g transform="translate(440, 192) scale(0.72, 0.72)">
       <!-- Water Ripples & Water Lily Pad Beneath Swan -->
-      <ellipse cx="-5" cy="48" rx="55" ry="10" fill="none" stroke="#879B80" stroke-width="1" opacity="0.4" />
-      <ellipse cx="-8" cy="52" rx="42" ry="7" fill="none" stroke="#879B80" stroke-width="0.8" opacity="0.3" />
+      <ellipse cx="-5" cy="48" rx="55" ry="10" fill="none" stroke="#879B80" stroke-width="1" opacity="0.45" />
+      <ellipse cx="-8" cy="52" rx="42" ry="7" fill="none" stroke="#879B80" stroke-width="0.8" opacity="0.35" />
       <ellipse cx="-2" cy="45" rx="28" ry="5" fill="#879B80" opacity="0.25" />
       
-      <!-- Lily Pad Behind -->
-      <path d="M 35,46 C 45,43 55,47 50,54 C 42,58 32,54 35,46 Z" fill="#65785E" stroke="#4A5A44" stroke-width="0.6" opacity="0.7" />
-      <path d="M -45,48 C -55,44 -65,49 -58,56 C -50,60 -40,55 -45,48 Z" fill="#879B80" stroke="#4A5A44" stroke-width="0.6" opacity="0.6" />
+      <!-- Lily Pads -->
+      <path d="M 35,46 C 45,43 55,47 50,54 C 42,58 32,54 35,46 Z" fill="#65785E" stroke="#4A5A44" stroke-width="0.6" opacity="0.75" />
+      <path d="M -45,48 C -55,44 -65,49 -58,56 C -50,60 -40,55 -45,48 Z" fill="#879B80" stroke="#4A5A44" stroke-width="0.6" opacity="0.65" />
 
       <!-- Swan Body Shading Layer (Deep shadow plumage) -->
       <path d="M -35,38 C -45,35 -50,25 -42,15 C -35,5 -20,10 -10,18 C 5,8 25,6 36,15 C 44,22 42,32 30,40 C 15,48 -18,48 -35,38 Z" 
@@ -947,7 +929,7 @@
 
       <!-- Swan Primary Wing Feathers (Sculpted layered wing) -->
       <path d="M -28,32 C -42,28 -48,16 -38,8 C -28,0 -12,6 -2,14 C 12,5 28,4 35,14 C 38,22 28,34 16,36 C 2,38 -14,38 -28,32 Z" 
-            fill="url(#swanWhite)" stroke="#C8B8BE" stroke-width="0.7" />
+            fill="#FAF6F0" stroke="#C8B8BE" stroke-width="0.7" />
 
       <!-- Feather Layer Details -->
       <path d="M -18,24 C -30,20 -38,12 -30,4 C -22,-2 -10,4 0,10 C 10,2 22,2 28,10 C 30,16 22,25 10,26 Z" 
@@ -964,11 +946,11 @@
 
       <!-- Swan Graceful 'S'-Curved Neck -->
       <path d="M -18,34 C -22,28 -24,18 -20,10 C -15,0 -14,-15 -20,-28 C -24,-36 -20,-44 -12,-44 C -4,-44 -2,-36 -6,-28 C -10,-18 -10,-4 -4,6 C 2,16 0,26 -6,34 Z" 
-            fill="url(#swanWhite)" stroke="#C8B8BE" stroke-width="0.7" />
+            fill="#FFFFFF" stroke="#C8B8BE" stroke-width="0.7" />
       
       <!-- Neck Highlight Crest -->
       <path d="M -18,28 C -21,22 -22,12 -18,4 C -14,-4 -12,-18 -18,-30 C -20,-34 -18,-40 -12,-40" 
-            fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity="0.9" stroke-linecap="round" />
+            fill="none" stroke="#FAF6F0" stroke-width="1.2" opacity="0.95" stroke-linecap="round" />
 
       <!-- Swan Head and Crown -->
       <path d="M -12,-44 C -18,-44 -20,-38 -15,-35 C -10,-32 -4,-35 -4,-40 C -4,-44 -8,-44 -12,-44 Z" 
@@ -981,7 +963,7 @@
 
       <!-- Champagne Gold Beak -->
       <path d="M -22,-38 C -26,-38 -32,-36 -35,-35 C -31,-34 -25,-34 -22,-35 Z" 
-            fill="url(#champagneGold)" stroke="#9E7D47" stroke-width="0.5" />
+            fill="#D9BE8D" stroke="#9E7D47" stroke-width="0.5" />
       <circle cx="-22" cy="-37.5" r="1.3" fill="#2B2523" />
 
       <!-- Small floating pink rose petals in water -->
@@ -1000,11 +982,11 @@
       <!-- Sepal Receptacle Base -->
       <ellipse cx="0" cy="5" rx="7" ry="5" fill="#4A5A44" stroke="#364232" stroke-width="0.8" />
       
-      <!-- Swirling Rosebud Petals -->
-      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="url(#roseBudGrad)" stroke="#7A3546" stroke-width="0.7" />
+      <!-- Swirling Rosebud Petals (Dual-tone antique rose layers) -->
+      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="#8E3E53" stroke="#7A3546" stroke-width="0.7" />
       <path d="M -5,-5 C -10,-14 -4,-22 0,-25 C 2,-16 2,-8 -5,-5 Z" fill="#C98291" stroke="#8E3E53" stroke-width="0.6" />
       <path d="M 4,-4 C 8,-12 5,-20 0,-25 C 5,-18 7,-10 4,-4 Z" fill="#E8B8BD" stroke="#A65D70" stroke-width="0.6" />
-      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.6" />
+      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.7" />
 
       <!-- Elongated Sepal Leaves embracing the bud -->
       <path d="M -6,6 C -12,-2 -16,-16 -12,-28 C -8,-14 -4,-2 -2,5 Z" fill="#65785E" stroke="#364232" stroke-width="0.7" />
@@ -1021,11 +1003,11 @@
       <!-- Sepal Receptacle Base -->
       <ellipse cx="0" cy="5" rx="7" ry="5" fill="#4A5A44" stroke="#364232" stroke-width="0.8" />
       
-      <!-- Swirling Rosebud Petals -->
-      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="url(#roseBudGrad)" stroke="#7A3546" stroke-width="0.7" />
+      <!-- Swirling Rosebud Petals (Dual-tone antique rose layers) -->
+      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="#8E3E53" stroke="#7A3546" stroke-width="0.7" />
       <path d="M -5,-5 C -10,-14 -4,-22 0,-25 C 2,-16 2,-8 -5,-5 Z" fill="#C98291" stroke="#8E3E53" stroke-width="0.6" />
       <path d="M 4,-4 C 8,-12 5,-20 0,-25 C 5,-18 7,-10 4,-4 Z" fill="#E8B8BD" stroke="#A65D70" stroke-width="0.6" />
-      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.6" />
+      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.7" />
 
       <!-- Elongated Sepal Leaves embracing the bud -->
       <path d="M -6,6 C -12,-2 -16,-16 -12,-28 C -8,-14 -4,-2 -2,5 Z" fill="#65785E" stroke="#364232" stroke-width="0.7" />
@@ -1035,6 +1017,6 @@
   
 
     <!-- Base Filigree Accent Line -->
-    <path d="M 280,240 Q 440,246 600,240" fill="none" stroke="url(#goldFiligree)" stroke-width="1.5" />
+    <path d="M 280,240 Q 440,246 600,240" fill="none" stroke="#C5A46D" stroke-width="1.5" />
   </g>
 </svg>

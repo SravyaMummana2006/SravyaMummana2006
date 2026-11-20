@@ -100,7 +100,7 @@
     
     <!-- Subtitle description -->
     <text x="0" y="78" class="sub-text">Play a live match against the engine or relax with personal romantic lo-fi beats.</text>
-    <text x="0" y="98" class="sub-text">Built natively with zero external bulky frameworks &bull; Full mobile responsiveness.</text>
+    <text x="0" y="98" class="sub-text">Built natively with zero external bulky frameworks &#8226; Full mobile responsiveness.</text>
   </g>
 
   <!-- Right: Vinyl Icon Representation -->

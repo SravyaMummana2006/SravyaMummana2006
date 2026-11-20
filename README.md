@@ -4,14 +4,14 @@
   <!-- HERO BOTANICAL HEADER BANNER -->
   <!-- ================================================================= -->
   <a href="https://sravyamummana2006.github.io/SravyaMummana2006/">
-    <img src="./assets/botanical-header.svg" width="100%" alt="Sravya Mummana - Victorian Botanical Journal & Research Portfolio" />
+    <img src="assets/botanical-header.svg" width="100%" alt="Sravya Mummana - Victorian Botanical Journal &amp; Research Portfolio" />
   </a>
 
   <br />
 
   <!-- Botanical Frontispiece Folio -->
   <a href="https://sravyamummana2006.github.io/SravyaMummana2006/">
-    <img src="./assets/floral-corners.svg" width="100%" alt="Florilegium Technologiae - Research Folio Frontispiece" />
+    <img src="assets/floral-corners.svg" width="100%" alt="Florilegium Technologiae - Research Folio Frontispiece" />
   </a>
 
   <p align="center">
@@ -37,7 +37,7 @@
     </a>
   </p>
 
-  <img src="./assets/rose-divider.svg" width="100%" alt="Botanical Rose Divider" />
+  <img src="assets/rose-divider.svg" width="100%" alt="Botanical Rose Divider" />
 
 </div>
 
@@ -58,7 +58,7 @@ My work is guided by a central conviction: **software should be mathematically s
 When away from the terminal, I enjoy classical chess strategy, listening to romantic lo-fi compositions, and studying botanical etchings.
 
 <div align="center">
-  <img src="./assets/rose-divider-bud.svg" width="100%" alt="Botanical Rosebud Divider" />
+  <img src="assets/rose-divider-bud.svg" width="100%" alt="Botanical Rosebud Divider" />
 </div>
 
 <br />
@@ -106,7 +106,7 @@ Every project chronicled below represents an original architecture designed, imp
 *Geospatial Remote Sensing &bull; Temporal CNN &bull; Multimodal AI Reasoning*
 
 * **The Problem**: Illicit clearing and subtle ecosystem decay frequently evade timely intervention due to the slow pace of manual satellite inspection and an absence of standardized ecological risk scoring.
-* **Technical Mechanism**: Compares bi-temporal satellite imagery pairs using deep convolutional networks (CNN) and OpenCV structural structural change detection. Executes 5-class land-use segmentation (*Forest, Water, Urban, Agriculture, Barren*), computes a quantitative Environmental Impact Score (EIS), and synthesizes multi-modal risk assessments via the Google Gemini API.
+* **Technical Mechanism**: Compares bi-temporal satellite imagery pairs using deep convolutional networks (CNN) and OpenCV structural change detection. Executes 5-class land-use segmentation (*Forest, Water, Urban, Agriculture, Barren*), computes a quantitative Environmental Impact Score (EIS), and synthesizes multi-modal risk assessments via the Google Gemini API.
 * **Apparatus**: `Python`, `TensorFlow / Keras`, `OpenCV`, `Google Gemini API`, `Streamlit`.
 
 ---
@@ -138,7 +138,7 @@ Every project chronicled below represents an original architecture designed, imp
 * **Apparatus**: `Python`, `Streamlit`, `Plotly`, `Pandas`, `Financial Modeling`.
 
 <div align="center">
-  <img src="./assets/rose-divider.svg" width="100%" alt="Botanical Rose Divider" />
+  <img src="assets/rose-divider.svg" width="100%" alt="Botanical Rose Divider" />
 </div>
 
 <br />
@@ -155,7 +155,7 @@ An orderly index of languages, libraries, and tools cultivated across my researc
 | **Tooling &amp; Infrastructure** | `Git` &bull; `GitHub Actions CI/CD` &bull; `Docker Compose` &bull; `Apache Maven` &bull; `Cargo` &bull; `Linux Environment` |
 
 <div align="center">
-  <img src="./assets/rose-divider-bud.svg" width="100%" alt="Botanical Rosebud Divider" />
+  <img src="assets/rose-divider-bud.svg" width="100%" alt="Botanical Rosebud Divider" />
 </div>
 
 <br />
@@ -169,7 +169,7 @@ I hold a firm commitment to the open-source commonwealth, actively participating
 * 🌿 **[OWASP Nettacker](https://github.com/OWASP/Nettacker)** &mdash; Community vulnerability assessment and network penetration testing suites.
 
 <div align="center">
-  <img src="./assets/rose-divider.svg" width="100%" alt="Botanical Rose Divider" />
+  <img src="assets/rose-divider.svg" width="100%" alt="Botanical Rose Divider" />
 </div>
 
 <br />
@@ -178,7 +178,7 @@ I hold a firm commitment to the open-source commonwealth, actively participating
 
 <div align="center">
   <a href="https://sravyamummana2006.github.io/SravyaMummana2006/">
-    <img src="./assets/swan-illustration.svg" width="100%" alt="Tabula Botanica et Cygnus - Classical Swan and Rose Plate" />
+    <img src="assets/swan-illustration.svg" width="100%" alt="Tabula Botanica et Cygnus - Classical Swan and Rose Plate" />
   </a>
 </div>
 
@@ -190,7 +190,7 @@ Because standard GitHub documentation precludes executing client-side scripts, I
 👉 **[Enter the Interactive Salon &amp; Experience the Suite &rarr;](https://sravyamummana2006.github.io/SravyaMummana2006/)**
 
 <div align="center">
-  <img src="./assets/rose-divider-bud.svg" width="100%" alt="Botanical Rosebud Divider" />
+  <img src="assets/rose-divider-bud.svg" width="100%" alt="Botanical Rosebud Divider" />
 </div>
 
 <br />
@@ -201,28 +201,9 @@ I welcome scholarly dialogues, engineering inquiries, and collaborative research
 
 <div align="center">
 
-  <table align="center" style="border: none;">
-    <tr align="center">
-      <td align="center" style="padding: 12px 24px;">
-        <a href="https://github.com/SravyaMummana2006">
-          <b>&sect; GitHub Archive</b><br />
-          <code>github.com/SravyaMummana2006</code>
-        </a>
-      </td>
-      <td align="center" style="padding: 12px 24px;">
-        <a href="https://www.linkedin.com/in/sravya-mummana/">
-          <b>&sect; Professional Inquiries</b><br />
-          <code>linkedin.com/in/sravya-mummana</code>
-        </a>
-      </td>
-      <td align="center" style="padding: 12px 24px;">
-        <a href="https://sravyamummana2006.github.io/SravyaMummana2006/">
-          <b>&sect; Interactive Portfolio</b><br />
-          <code>sravyamummana2006.github.io</code>
-        </a>
-      </td>
-    </tr>
-  </table>
+| &sect; GitHub Archive | &sect; Professional Inquiries | &sect; Interactive Portfolio |
+| :---: | :---: | :---: |
+| [**github.com/SravyaMummana2006**](https://github.com/SravyaMummana2006) | [**linkedin.com/in/sravya-mummana**](https://www.linkedin.com/in/sravya-mummana/) | [**sravyamummana2006.github.io**](https://sravyamummana2006.github.io/SravyaMummana2006/) |
 
 </div>
 
@@ -233,7 +214,7 @@ I welcome scholarly dialogues, engineering inquiries, and collaborative research
   <!-- ================================================================= -->
   <!-- BOTANICAL FOOTER BANNER & EX LIBRIS -->
   <!-- ================================================================= -->
-  <img src="./assets/botanical-footer.svg" width="100%" alt="Ex Libris Sravya Mummana - Botanical Garland & Colophon" />
+  <img src="assets/botanical-footer.svg" width="100%" alt="Ex Libris Sravya Mummana - Botanical Garland &amp; Colophon" />
 
   <p align="center">
     <sub>Archival Botanical Florilegium &bull; Natural Pigments &amp; Mathematical Rigor &bull; &copy; MMXXVI Sravya Mummana</sub>

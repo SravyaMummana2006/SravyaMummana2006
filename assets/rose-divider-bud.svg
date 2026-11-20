@@ -1,164 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 28" width="880" height="28">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 880 28" width="880" height="28">
+  <!-- Subtle Vine Path extending outward -->
+  <path d="M 60,14 C 180,14 300,12 410,14" fill="none" stroke="#879B80" stroke-width="1.1" stroke-linecap="round" />
+  <path d="M 820,14 C 700,14 580,12 470,14" fill="none" stroke="#879B80" stroke-width="1.1" stroke-linecap="round" />
+
   
-    <defs>
-      <!-- Gradients for Roses -->
-      <radialGradient id="rosePetalCenter" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stop-color="#7A3546" />
-        <stop offset="45%" stop-color="#A65D70" />
-        <stop offset="85%" stop-color="#C98291" />
-        <stop offset="100%" stop-color="#E8B8BD" />
-      </radialGradient>
-
-      <linearGradient id="roseOuterPetal" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#E8B8BD" />
-        <stop offset="50%" stop-color="#C98291" />
-        <stop offset="100%" stop-color="#A65D70" />
-      </linearGradient>
-
-      <linearGradient id="roseBudGrad" x1="0%" y1="100%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#7A3546" />
-        <stop offset="40%" stop-color="#A65D70" />
-        <stop offset="80%" stop-color="#C98291" />
-        <stop offset="100%" stop-color="#E8B8BD" />
-      </linearGradient>
-
-      <!-- Gradients for Foliage -->
-      <linearGradient id="leafGradMain" x1="0%" y1="100%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#4A5A44" />
-        <stop offset="45%" stop-color="#65785E" />
-        <stop offset="80%" stop-color="#879B80" />
-        <stop offset="100%" stop-color="#9FB298" />
-      </linearGradient>
-
-      <linearGradient id="leafGradSecondary" x1="100%" y1="100%" x2="0%" y2="0%">
-        <stop offset="0%" stop-color="#364232" />
-        <stop offset="50%" stop-color="#556650" />
-        <stop offset="100%" stop-color="#788C72" />
-      </linearGradient>
-
-      <!-- Gradients for Gold Elements -->
-      <linearGradient id="champagneGold" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#9E7D47" />
-        <stop offset="35%" stop-color="#D9BE8D" />
-        <stop offset="70%" stop-color="#C5A46D" />
-        <stop offset="100%" stop-color="#8C6B38" />
-      </linearGradient>
-
-      <linearGradient id="goldFiligree" x1="0%" y1="50%" x2="100%" y2="50%">
-        <stop offset="0%" stop-color="#C5A46D" stop-opacity="0" />
-        <stop offset="30%" stop-color="#C5A46D" stop-opacity="0.9" />
-        <stop offset="50%" stop-color="#E2CCA4" stop-opacity="1" />
-        <stop offset="70%" stop-color="#C5A46D" stop-opacity="0.9" />
-        <stop offset="100%" stop-color="#C5A46D" stop-opacity="0" />
-      </linearGradient>
-
-      <!-- Parchment & Ivory Background -->
-      <linearGradient id="parchmentBg" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FFFDF9" />
-        <stop offset="40%" stop-color="#FFF9F2" />
-        <stop offset="80%" stop-color="#FAF2E6" />
-        <stop offset="100%" stop-color="#F4EADB" />
-      </linearGradient>
-
-      <!-- Swan Plumage Gradients -->
-      <linearGradient id="swanWhite" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" />
-        <stop offset="70%" stop-color="#FAF6F0" />
-        <stop offset="100%" stop-color="#E5D9DC" />
-      </linearGradient>
-
-      <linearGradient id="swanShade" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
-        <stop offset="70%" stop-color="#D0C0C6" stop-opacity="0.5" />
-        <stop offset="100%" stop-color="#A8949C" stop-opacity="0.8" />
-      </linearGradient>
-    </defs>
+    <g transform="translate(190, 14)">
+      <circle cx="0" cy="-2.6599999999999997" r="2.4699999999999998" fill="#E8B8BD" opacity="0.95" />
+      <circle cx="2.546" cy="-0.76" r="2.4699999999999998" fill="#E8B8BD" opacity="0.95" />
+      <circle cx="1.52" cy="2.28" r="2.4699999999999998" fill="#E8B8BD" opacity="0.95" />
+      <circle cx="-1.52" cy="2.28" r="2.4699999999999998" fill="#E8B8BD" opacity="0.95" />
+      <circle cx="-2.546" cy="-0.76" r="2.4699999999999998" fill="#E8B8BD" opacity="0.95" />
+      <circle cx="0" cy="0" r="1.52" fill="#C5A46D" stroke="#9E7D47" stroke-width="0.5" />
+    </g>
+  
+  
+    <g transform="translate(690, 14)">
+      <circle cx="0" cy="-2.6599999999999997" r="2.4699999999999998" fill="#E8B8BD" opacity="0.95" />
+      <circle cx="2.546" cy="-0.76" r="2.4699999999999998" fill="#E8B8BD" opacity="0.95" />
+      <circle cx="1.52" cy="2.28" r="2.4699999999999998" fill="#E8B8BD" opacity="0.95" />
+      <circle cx="-1.52" cy="2.28" r="2.4699999999999998" fill="#E8B8BD" opacity="0.95" />
+      <circle cx="-2.546" cy="-0.76" r="2.4699999999999998" fill="#E8B8BD" opacity="0.95" />
+      <circle cx="0" cy="0" r="1.52" fill="#C5A46D" stroke="#9E7D47" stroke-width="0.5" />
+    </g>
   
 
-  <!-- Left Vine Line -->
-  <path d="M 60,14 C 180,14 300,12 400,14" fill="none" stroke="#879B80" stroke-width="1.1" stroke-linecap="round" />
-  <path d="M 80,14 L 380,14" fill="none" stroke="#C5A46D" stroke-width="0.6" stroke-dasharray="8,4" opacity="0.6" />
-
-  <!-- Right Vine Line -->
-  <path d="M 820,14 C 700,14 580,12 480,14" fill="none" stroke="#879B80" stroke-width="1.1" stroke-linecap="round" />
-  <path d="M 800,14 L 500,14" fill="none" stroke="#C5A46D" stroke-width="0.6" stroke-dasharray="8,4" opacity="0.6" />
-
-  <!-- Left Accents -->
+  <!-- Leaves along vine -->
   
-    <g transform="translate(360, 14) rotate(-60) scale(1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 4.8,-4.5 8,-11.700000000000001 0,-18 C -8,-11.700000000000001 -4.8,-4.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+    <g transform="translate(290, 13) rotate(60) scale(1, 1)">
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -7.199999999999999,-6 -12,-15.600000000000001 0,-24 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 7.199999999999999,-6 12,-15.600000000000001 0,-24 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
-      <path d="M 0,0 Q 0.64,-9 0,-18" 
+      <path d="M 0,0 Q 0.96,-12 0,-24" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-3.6 C 2.4,-4.5 4,-6.3 5.6,-7.2" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-3.6 C -2.4,-4.5 -4,-6.3 -5.6,-7.2" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-4.800000000000001 C 3.5999999999999996,-6 6,-8.399999999999999 8.399999999999999,-9.600000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-4.800000000000001 C -3.5999999999999996,-6 -6,-8.399999999999999 -8.399999999999999,-9.600000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-7.2 C 2,-8.280000000000001 3.6,-9.9 5.2,-11.16" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.2 C -2,-8.280000000000001 -3.6,-9.9 -5.2,-11.16" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-9.600000000000001 C 3,-11.040000000000001 5.4,-13.200000000000001 7.800000000000001,-14.879999999999999" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-9.600000000000001 C -3,-11.040000000000001 -5.4,-13.200000000000001 -7.800000000000001,-14.879999999999999" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-11.16 C 1.6,-12.24 2.8,-13.68 3.84,-14.76" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-11.16 C -1.6,-12.24 -2.8,-13.68 -3.84,-14.76" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-14.879999999999999 C 2.4000000000000004,-16.32 4.199999999999999,-18.240000000000002 5.76,-19.68" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-14.879999999999999 C -2.4000000000000004,-16.32 -4.199999999999999,-18.240000000000002 -5.76,-19.68" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-14.4 C 0.96,-15.12 1.76,-16.02 2.24,-16.740000000000002" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-14.4 C -0.96,-15.12 -1.76,-16.02 -2.24,-16.740000000000002" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
+      <path d="M 0,-19.200000000000003 C 1.44,-20.16 2.64,-21.36 3.3600000000000003,-22.32" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-19.200000000000003 C -1.44,-20.16 -2.64,-21.36 -3.3600000000000003,-22.32" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
   
-    <g transform="translate(250, 14)">
-      <circle cx="0" cy="-2.8" r="2.6" fill="#E8B8BD" opacity="0.95" />
-      <circle cx="2.68" cy="-0.8" r="2.6" fill="#E8B8BD" opacity="0.95" />
-      <circle cx="1.6" cy="2.4" r="2.6" fill="#E8B8BD" opacity="0.95" />
-      <circle cx="-1.6" cy="2.4" r="2.6" fill="#E8B8BD" opacity="0.95" />
-      <circle cx="-2.68" cy="-0.8" r="2.6" fill="#E8B8BD" opacity="0.95" />
-      <circle cx="0" cy="0" r="1.6" fill="#C5A46D" stroke="#9E7D47" stroke-width="0.5" />
-    </g>
-  
-
-  <!-- Right Accents -->
-  
-    <g transform="translate(520, 14) rotate(60) scale(-1, 1)">
-      <!-- Leaf Blade -->
-      <path d="M 0,0 C 4.8,-4.5 8,-11.700000000000001 0,-18 C -8,-11.700000000000001 -4.8,-4.5 0,0 Z" 
-            fill="url(#leafGradMain)" stroke="#364232" stroke-width="0.8" />
+    <g transform="translate(590, 13) rotate(-60) scale(-1, 1)">
+      <!-- Leaf Blade Left Half (Deeper olive tone) -->
+      <path d="M 0,0 C -7.199999999999999,-6 -12,-15.600000000000001 0,-24 Z" 
+            fill="#556650" stroke="#364232" stroke-width="0.8" />
+      <!-- Leaf Blade Right Half (Softer sage-green tone) -->
+      <path d="M 0,0 C 7.199999999999999,-6 12,-15.600000000000001 0,-24 Z" 
+            fill="#788C72" stroke="#364232" stroke-width="0.8" />
       
       <!-- Central Midrib Vein -->
-      <path d="M 0,0 Q 0.64,-9 0,-18" 
+      <path d="M 0,0 Q 0.96,-12 0,-24" 
             fill="none" stroke="#B8CCA8" stroke-width="1.2" stroke-linecap="round" />
       
       <!-- Secondary Lateral Veins -->
-      <path d="M 0,-3.6 C 2.4,-4.5 4,-6.3 5.6,-7.2" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-3.6 C -2.4,-4.5 -4,-6.3 -5.6,-7.2" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-4.800000000000001 C 3.5999999999999996,-6 6,-8.399999999999999 8.399999999999999,-9.600000000000001" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-4.800000000000001 C -3.5999999999999996,-6 -6,-8.399999999999999 -8.399999999999999,-9.600000000000001" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-7.2 C 2,-8.280000000000001 3.6,-9.9 5.2,-11.16" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
-      <path d="M 0,-7.2 C -2,-8.280000000000001 -3.6,-9.9 -5.2,-11.16" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.75" />
+      <path d="M 0,-9.600000000000001 C 3,-11.040000000000001 5.4,-13.200000000000001 7.800000000000001,-14.879999999999999" fill="none" stroke="#C8DAB8" stroke-width="0.65" opacity="0.85" />
+      <path d="M 0,-9.600000000000001 C -3,-11.040000000000001 -5.4,-13.200000000000001 -7.800000000000001,-14.879999999999999" fill="none" stroke="#A8BCA0" stroke-width="0.65" opacity="0.85" />
       
-      <path d="M 0,-11.16 C 1.6,-12.24 2.8,-13.68 3.84,-14.76" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
-      <path d="M 0,-11.16 C -1.6,-12.24 -2.8,-13.68 -3.84,-14.76" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.7" />
+      <path d="M 0,-14.879999999999999 C 2.4000000000000004,-16.32 4.199999999999999,-18.240000000000002 5.76,-19.68" fill="none" stroke="#C8DAB8" stroke-width="0.6" opacity="0.8" />
+      <path d="M 0,-14.879999999999999 C -2.4000000000000004,-16.32 -4.199999999999999,-18.240000000000002 -5.76,-19.68" fill="none" stroke="#A8BCA0" stroke-width="0.6" opacity="0.8" />
       
-      <path d="M 0,-14.4 C 0.96,-15.12 1.76,-16.02 2.24,-16.740000000000002" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-      <path d="M 0,-14.4 C -0.96,-15.12 -1.76,-16.02 -2.24,-16.740000000000002" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.6" />
-    </g>
-  
-  
-    <g transform="translate(630, 14)">
-      <circle cx="0" cy="-2.8" r="2.6" fill="#E8B8BD" opacity="0.95" />
-      <circle cx="2.68" cy="-0.8" r="2.6" fill="#E8B8BD" opacity="0.95" />
-      <circle cx="1.6" cy="2.4" r="2.6" fill="#E8B8BD" opacity="0.95" />
-      <circle cx="-1.6" cy="2.4" r="2.6" fill="#E8B8BD" opacity="0.95" />
-      <circle cx="-2.68" cy="-0.8" r="2.6" fill="#E8B8BD" opacity="0.95" />
-      <circle cx="0" cy="0" r="1.6" fill="#C5A46D" stroke="#9E7D47" stroke-width="0.5" />
+      <path d="M 0,-19.200000000000003 C 1.44,-20.16 2.64,-21.36 3.3600000000000003,-22.32" fill="none" stroke="#C8DAB8" stroke-width="0.5" opacity="0.75" />
+      <path d="M 0,-19.200000000000003 C -1.44,-20.16 -2.64,-21.36 -3.3600000000000003,-22.32" fill="none" stroke="#A8BCA0" stroke-width="0.5" opacity="0.75" />
     </g>
   
 
-  <!-- Center Double Rosebud Clasp -->
-  <g transform="translate(440, 14)">
-    
-    <g transform="translate(-15, 0) rotate(-48) scale(0.48)">
+  <!-- Twin Rosebuds meeting at center -->
+  
+    <g transform="translate(425, 14) rotate(-75) scale(0.42)">
       <!-- Curved Stem with tiny prickle -->
       <path d="M 0,35 C -5,22 -2,12 0,0" fill="none" stroke="#65785E" stroke-width="2.4" stroke-linecap="round" />
       <path d="M -2,22 C -6,20 -7,18 -5,17" fill="none" stroke="#C5A46D" stroke-width="1.2" stroke-linecap="round" />
@@ -166,11 +91,11 @@
       <!-- Sepal Receptacle Base -->
       <ellipse cx="0" cy="5" rx="7" ry="5" fill="#4A5A44" stroke="#364232" stroke-width="0.8" />
       
-      <!-- Swirling Rosebud Petals -->
-      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="url(#roseBudGrad)" stroke="#7A3546" stroke-width="0.7" />
+      <!-- Swirling Rosebud Petals (Dual-tone antique rose layers) -->
+      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="#8E3E53" stroke="#7A3546" stroke-width="0.7" />
       <path d="M -5,-5 C -10,-14 -4,-22 0,-25 C 2,-16 2,-8 -5,-5 Z" fill="#C98291" stroke="#8E3E53" stroke-width="0.6" />
       <path d="M 4,-4 C 8,-12 5,-20 0,-25 C 5,-18 7,-10 4,-4 Z" fill="#E8B8BD" stroke="#A65D70" stroke-width="0.6" />
-      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.6" />
+      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.7" />
 
       <!-- Elongated Sepal Leaves embracing the bud -->
       <path d="M -6,6 C -12,-2 -16,-16 -12,-28 C -8,-14 -4,-2 -2,5 Z" fill="#65785E" stroke="#364232" stroke-width="0.7" />
@@ -178,8 +103,8 @@
       <path d="M 0,6 C -2,-4 0,-14 2,-22 C 3,-12 3,-2 0,6 Z" fill="#4A5A44" stroke="#364232" stroke-width="0.6" />
     </g>
   
-    
-    <g transform="translate(15, 0) rotate(48) scale(0.48)">
+  
+    <g transform="translate(455, 14) rotate(75) scale(0.42)">
       <!-- Curved Stem with tiny prickle -->
       <path d="M 0,35 C -5,22 -2,12 0,0" fill="none" stroke="#65785E" stroke-width="2.4" stroke-linecap="round" />
       <path d="M -2,22 C -6,20 -7,18 -5,17" fill="none" stroke="#C5A46D" stroke-width="1.2" stroke-linecap="round" />
@@ -187,11 +112,11 @@
       <!-- Sepal Receptacle Base -->
       <ellipse cx="0" cy="5" rx="7" ry="5" fill="#4A5A44" stroke="#364232" stroke-width="0.8" />
       
-      <!-- Swirling Rosebud Petals -->
-      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="url(#roseBudGrad)" stroke="#7A3546" stroke-width="0.7" />
+      <!-- Swirling Rosebud Petals (Dual-tone antique rose layers) -->
+      <path d="M -8,2 C -14,-8 -8,-22 0,-26 C 8,-22 14,-8 8,2 Z" fill="#8E3E53" stroke="#7A3546" stroke-width="0.7" />
       <path d="M -5,-5 C -10,-14 -4,-22 0,-25 C 2,-16 2,-8 -5,-5 Z" fill="#C98291" stroke="#8E3E53" stroke-width="0.6" />
       <path d="M 4,-4 C 8,-12 5,-20 0,-25 C 5,-18 7,-10 4,-4 Z" fill="#E8B8BD" stroke="#A65D70" stroke-width="0.6" />
-      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.6" />
+      <path d="M -2,-18 C 1,-24 4,-20 2,-16 Z" fill="#FFF5F6" opacity="0.7" />
 
       <!-- Elongated Sepal Leaves embracing the bud -->
       <path d="M -6,6 C -12,-2 -16,-16 -12,-28 C -8,-14 -4,-2 -2,5 Z" fill="#65785E" stroke="#364232" stroke-width="0.7" />
@@ -199,8 +124,8 @@
       <path d="M 0,6 C -2,-4 0,-14 2,-22 C 3,-12 3,-2 0,6 Z" fill="#4A5A44" stroke="#364232" stroke-width="0.6" />
     </g>
   
-    <circle cx="0" cy="0" r="3" fill="#C5A46D" stroke="#9E7D47" stroke-width="0.6" />
-    <circle cx="-28" cy="0" r="1.8" fill="#C5A46D" />
-    <circle cx="28" cy="0" r="1.8" fill="#C5A46D" />
-  </g>
+
+  <!-- Center Gold Punctuation Bead -->
+  <circle cx="440" cy="14" r="3" fill="#C5A46D" />
+  <circle cx="440" cy="14" r="1.5" fill="#FFF9F2" />
 </svg>
